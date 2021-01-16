@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en" id="top">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/laptop.css">
+    <link rel="stylesheet" href="./css/largeLaptop.css">
+    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="./css/phone-small.css">
+    <link rel="stylesheet" href="./css/mobileNav.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
+    <title>Sun KPO - Services</title>
+</head>
+
+<body>
+    <!-- Mobile Hamburger Menu Start -->
+    <div class="mobile-menu">
+        <img id="times" src="./svgs/times.svg" alt="">
+        <img id="mobilenavlogo" src="./svgs/mobileNav-logo.svg" alt="">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="careers.html">Careers</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="index.html#contact-us">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Hamburger Menu End -->
+    <!-- Parent Scroll Start -->
+    <div class="parent">
+        <!-- Back to top button start-->
+        <button id="back-to-top"><img src="./svgs/back-to-top.svg" alt=""></button>
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Header Section Start -->
+            <section class="header">
+                <img id="hamburger" src="./svgs/hamburger.svg" alt="">
+                <div class="container">
+                    <!--PC Nav Bar Start-->
+                    <nav class="custom-nav-bar">
+                        <picture>
+                            <a href="index.html"><img class="logo" src="./Logo/LOGO.svg" alt=""></a>
+                        </picture>
+                        <div class="pc-navigation">
+                            <ul class="nav" id="main-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="careers.html">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="aboutus.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- PC Nav Bar End -->
+                    <!-- Header Circle Start-->
+                    <div class="header-circle">
+                        <picture>
+                            <source srcset="/svgs/Header-circle-phone.svg" media="(max-width: 576px)">
+                            <source srcset="/svgs/Header-circle-tab.svg" media="(max-width: 1200px)">
+                            <img src="svgs/Header-circle-desktop.svg" alt="">
+                        </picture>
+                    </div>
+                    <!-- Header Circle End-->
+                </div>
+            </section>
+            <!-- Header Section End -->
+            <!-- Services Section Txt Start -->
+            <section class="services-txt">
+                <div class="container">
+                    <div class="services-txt-2">
+                        <h1>SERVICES</h1>
+                        <div class="horizontal-rule"></div>
+                        <p>Sun KPO is a full service company offering a wide range of services under the same roof –
+                            this will help your IT , Product Engineering and Support teams to work closely with just one
+                            vendor and get all the needed services at a single place.</p>
+                        <div class="services-nav">
+                            <h3><a href="#carousel-wrapper">Offered Services</a></h3>
+                            <h4>|</h4>
+                            <h3><a href="#reasons">Best Reasons To Choose Us</a></h3>
+                            <h4>|</h4>
+                            <h3><a href="#counters">Experience</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services Txt Circle Start -->
+                <div class="services-circle-2">
+                    <picture>
+                        <img src="./Pages/Services-page/Services-circle.svg" alt="">
+                    </picture>
+                </div>
+                <!-- Services Txt Circle End -->
+            </section>
+            <!-- Services Section Txt End-->
+            <!-- Child Scroll End -->
+        </div>
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <section class="services" id="services">
+                <div id="carousel-wrapper">
+                    <!--Services carousel start -->
+                    <div id="services-carousel" class="carousel slide carousel-fade" data-ride="carousel"
+                        data-interval="false">
+                        <div class="carousel-inner">
+                            <!--Mechanical start-->
+                            <div class="carousel-item" id="mechanical-engineering"
+                                onfocus="console.log('Id is foucsed')">
+                                <div class="card-outer-wrapper">
+                                    <h1>Mechanical <span>Engineering</span></h1>
+                                    <div class="card-inner-wrapper">
+                                        <div class="left-section">
+                                            <!--content 1-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/BOM.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>BOM Generation And Quotes</h3>
+                                                    <p>Sun KPO Engineeering teams can generate full BOM's and Quotes
+                                                        <span>within a day
+                                                        </span> to expedite the quoting process for our customers. This
+                                                        has allowed several of our customers to respond to their
+                                                        clients needs quickly and accurately. We have observed that the
+                                                        faster our customers are able to respond to their
+                                                        clients, more likely they are to win the business, making it a
+                                                        <span>win-win</span> situation.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--content 2-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/design.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Conceptual and Detailed <br>Designs</h3>
+                                                    <p>We work with our customers to generate concepts based on their
+                                                        requirements. Once the concepts are approved, we then provide
+                                                        full
+                                                        documentation for production.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Middle section-->
+                                        <div class="middle-section">
+                                            <picture>
+                                                <img src="./Pages/Services-page/illustrations/mechanical-engineering.svg"
+                                                    alt="">
+                                            </picture>
+                                        </div>
+                                        <!-- Right section -->
+                                        <div class="right-section">
+                                            <!--content3-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/autocad.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Legacy Conversion</h3>
+                                                    <p>We convert old legacy paper or AutoCAD drawings into 3D models
+                                                        along with full BOM and documentation.</p>
+                                                </div>
+                                            </div>
+                                            <!--content4-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/3d.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>3D modeling and 2D Drafting</h3>
+                                                    <p>We provide 3D modeling/2D Drafting services using SolidWorks,
+                                                        CREO, AutoCAD, Autodesk Inventor,
+                                                        DraftSight and CATIA.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--content5-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/Geometry.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Geometric and Detailed Design <br>and Tolerancing
+                                                    </h3>
+                                                    <p>Sun KPO Engineers are trained to apply the rules defined in
+                                                        <span>ASME Y14.5</span> for GD&T on the drawings
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-outer-closing tag-->
+                                </div>
+                            </div>
+                            <!--Mechanical end-->
+                            <!--Electrical start-->
+                            <div class="carousel-item" id="electrical-engineering"
+                                onfocus="console.log('Id is foucsed')">
+                                <div class="card-outer-wrapper">
+                                    <h1>Electrical <span>Engineering</span></h1>
+                                    <div class="card-inner-wrapper">
+                                        <div class="left-section">
+                                            <!--content 1-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/electrical-drawing.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Drawing and Drafting</h3>
+                                                    <p>Instrument Specifications, GA Drawings and Drawing
+                                                        Conversions
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--content 2-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/electrical-design.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Design</h3>
+                                                    <p>Design Calculations and Drafting, BOM, and Creating Macros &
+                                                        Libraries</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Middle section-->
+                                        <div class="middle-section">
+                                            <picture>
+                                                <img src="./Pages/Services-page/illustrations/electrical.svg" alt="">
+                                            </picture>
+                                        </div>
+                                        <!-- Right section -->
+                                        <div class="right-section">
+                                            <!--content4-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/electrical-schematics.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Schematics</h3>
+                                                    <p>Electrical Schematics, Wiring Schematics and Single Line Diagrams
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--content5-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/electrical-layout.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Layouts</h3>
+                                                    <p>Earthing Layouts, Lighting Layouts, Cable Trays and Sensor
+                                                        Layouts</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-outer-closing tag-->
+                                </div>
+                            </div>
+                            <!--electrical end-->
+                            <!--PLC start-->
+                            <div class="carousel-item" id="plc-programming" onfocus="console.log('Id is foucsed')">
+                                <div class="card-outer-wrapper">
+                                    <h1>PLC <span>Programming</span></h1>
+                                    <div class="card-inner-wrapper">
+                                        <div class="left-section">
+                                            <!--content 1-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/plc-scada.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>PLC & SCADA</h3>
+                                                    <p>PLC Panels, MCC and PCC Panels, Industrial Panels and Drive
+                                                        Panels</p>
+                                                </div>
+                                            </div>
+                                            <!--content 2-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/plc-system-design.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>System Design</h3>
+                                                    <p>CE / UL / GOST, Logic Diagrams, Control System Design and Safety
+                                                        Interlocks </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Middle section-->
+                                        <div class="middle-section">
+                                            <picture>
+                                                <img src="./Pages/Services-page/illustrations/PLC.svg" alt="">
+                                            </picture>
+                                        </div>
+                                        <!-- Right section -->
+                                        <div class="right-section">
+                                            <!--content4-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/plc-application.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Application programming</h3>
+                                                    <p>S88 Programming, Ladder Programming, Embedded C / C++ and
+                                                        Validation</p>
+                                                </div>
+                                            </div>
+                                            <!--content5-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/plc-platforms.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Platforms</h3>
+                                                    <p>Siemens, ABB, Rockwell (AB),
+                                                        Schneider, Mitsubishi, GE
+                                                        WinCC, Wonderware,
+                                                        RS View / Factory Talk, Citect, Ifix
+                                                        Ethernet I/P, Modbus TCPI/IP, Profinet, Profibus and Control Net
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-outer-closing tag-->
+                                </div>
+                            </div>
+                            <!--PLC end-->
+                            <!--IT start-->
+                            <div class="carousel-item" id="it-services" onfocus="console.log('Id is foucsed')">
+                                <div class="card-outer-wrapper">
+                                    <h1>IT <span>Services</span></h1>
+                                    <div class="card-inner-wrapper">
+                                        <div class="left-section">
+                                            <!--content 1-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/it.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Application Design and Development</h3>
+                                                    <p>Design and development of custom applications in various
+                                                        technologies
+                                                        such as .NET, Java, Angular
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--content 2-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/support.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Support and Maintenace</h3>
+                                                    <p>Support and Maintenace of existing projects and products,
+                                                        production support, upgrades, bug fixed and minor
+                                                        /major enhancements.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Middle section-->
+                                        <div class="middle-section">
+                                            <picture>
+                                                <img src="./Pages/Services-page/illustrations/It-services.svg" alt="">
+                                            </picture>
+                                        </div>
+                                        <!-- Right section -->
+                                        <div class="right-section">
+                                            <!--content4-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/cloud-services.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Cloud Implementation</h3>
+                                                    <p>Cloud based applications on AWS, Azure and Google Cloud, Cloud
+                                                        creation and migration, application and cloud support</p>
+                                                </div>
+                                            </div>
+                                            <!--content5-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/porting.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Porting and Technology <br>Conversion</h3>
+                                                    <p>Legacy to new generation technology migration ( Example, Java to
+                                                        Cloud, ASP.NET to .NET core etc. )</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-outer-closing tag-->
+                                </div>
+                            </div>
+                            <!--IT end-->
+                            <!--Digital start-->
+                            <div class="carousel-item" id="digital-solutions" onfocus="console.log('Id is foucsed')">
+                                <div class="card-outer-wrapper">
+                                    <h1>Digital <span>Solutions</span></h1>
+                                    <div class="card-inner-wrapper">
+                                        <div class="left-section">
+                                            <!--content 1-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/web.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Web Applications</h3>
+                                                    <p>Custom web application development and support in new generation
+                                                        technologies like Angular, React, Vue, Python / Django
+                                                        , PHP etc.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--content 2-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/mobile.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Mobile Applications</h3>
+                                                    <p>Mobile App development in Native Android, Native IOS, Hybrid
+                                                        frameworks (Ionic / React Native) and their management /
+                                                        support.</p>
+                                                </div>
+                                            </div>
+                                            <!--content3-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/dollar.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>E-Commerce</h3>
+                                                    <p>E-Commerce web and mobile application development, integration to
+                                                        existing E-Commerce sites, development of payment gateways.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Middle section-->
+                                        <div class="middle-section">
+                                            <picture>
+                                                <img src="./Pages/Services-page/illustrations/digital-services.svg"
+                                                    alt="">
+                                            </picture>
+                                        </div>
+                                        <!-- Right section -->
+                                        <div class="right-section">
+                                            <!--content4-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/cloud-main.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Digital Cloud</h3>
+                                                    <p>Digital cloud creation, migeration and deployment for legacy web
+                                                        and mobile applications.</p>
+                                                </div>
+                                            </div>
+                                            <!--content5-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/app.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>App Integration</h3>
+                                                    <p>Integration services to third party devices like Bluetooth, RFID,
+                                                        QR / Barcode scanners for inventor or warehousing applications.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-outer-closing tag-->
+                                </div>
+                            </div>
+                            <!--Digital end-->
+                            <!--IOT start-->
+                            <div class="carousel-item" id="iot-embedded" onfocus="console.log('Id is foucsed')">
+                                <div class="card-outer-wrapper">
+                                    <h1>IOT and <span>Embedded</span></h1>
+                                    <div class="card-inner-wrapper">
+                                        <div class="left-section">
+                                            <!--content 1-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/IOT.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>IOT</h3>
+                                                    <p>Services for design and manufacture of IOT devices for Medical,
+                                                        Automotive, Heavy Vehicles, Process Automation etc.</p>
+                                                </div>
+                                            </div>
+                                            <!--content 2-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/4.0.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Industry 4.0</h3>
+                                                    <p>Smart Manufacturing, Simulation, Smart Factories and Automation
+                                                        (PLCs)</p>
+                                                </div>
+                                            </div>
+                                            <!--content3-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/telematics.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Telematics</h3>
+                                                    <p>Bluetooth / Zigbee, RF Mesh, GPRS based remote monitoring
+                                                        solutions - software protocols and integration (MQTT / Cloud).
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Middle section-->
+                                        <div class="middle-section">
+                                            <picture>
+                                                <img src="./Pages/Services-page/illustrations/IOT.svg" alt="">
+                                            </picture>
+                                        </div>
+                                        <!-- Right section -->
+                                        <div class="right-section">
+                                            <!--content4-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/embedded.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Embedded Circuits</h3>
+                                                    <p>Embedded processors and controllers based product design.</p>
+                                                </div>
+                                            </div>
+                                            <!--content5-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/design-icon.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Design Support</h3>
+                                                    <p>Board design, schematic capture, PCB layout and manufacturing
+                                                        support, along with Component.</p>
+                                                </div>
+                                            </div>
+                                            <!--content6-->
+                                            <div class="content">
+                                                <div class="graphic">
+                                                    <img src="./Pages/Services-page/firmware.svg" alt="">
+                                                </div>
+                                                <div class="text">
+                                                    <h3>Firmware</h3>
+                                                    <p>Embedded firmware and application development, board support and
+                                                        package development.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-outer-closing tag-->
+                                </div>
+                            </div>
+                            <!--IOT end-->
+                        </div>
+                        <div class="left-slidder">
+                            <a class="carousel-control-prev" href="#services-carousel" role="button" data-slide="prev">
+                                <img src="./Pages/Services-page/left-slider.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="right-slidder">
+                            <a class="carousel-control-next" href="#services-carousel" role="button" data-slide="next">
+                                <img src="./Pages/Services-page/right-slider.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Services carousel end -->
+                    <!--Services circle start -->
+                    <div class="services-circle-3">
+                        <picture>
+                            <img src="./Pages/Services-page/Services-circle.svg" alt="">
+                        </picture>
+                    </div>
+                    <!--Services circle end-->
+                </div>
+            </section>
+        </div>
+        <!-- Child Scroll End-->
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Reasons section start -->
+            <section class="reasons" id="reasons">
+                <div class="container">
+                    <div class="reasons-outer-wrapper">
+                        <h3>BEST REASONS TO</h3>
+                        <h1>Choose Us</h1>
+                        <div class="reason-wrapper">
+                            <div class="content">
+                                <h4>01</h4>
+                                <div class="horizontal-rule"></div>
+                                <div class="text">
+                                    <h2 class="subReasonHeading">Value</h2>
+                                    <p>We believe in creating value to our customers through our services. We create
+                                        long term partnerships with our
+                                        customers and in turn they have helped Sun KPO by providing Sun KPO, several
+                                        referrals in order to grow our clientel.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>02</h4>
+                                <div class="horizontal-rule"></div>
+                                <div class="text">
+                                    <h2 class="subReasonHeading">High Quality</h2>
+                                    <p>Prior to delivery of every project, our engineers run through a series of
+                                        checklists to ensure
+                                        the deliverable meets our own strict internal standards and our customers
+                                        requirements.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>03</h4>
+                                <div class="horizontal-rule"></div>
+                                <div class="text">
+                                    <h2 class="subReasonHeading">Low Cost and Flexibility</h2>
+                                    <p>Our costs are extremely competetive as we provide most of the services from
+                                        offshore in India. We are very
+                                        easy to work with and provide flexibility to our customers to chose between a
+                                        fixed bid rate or an hourly rate.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>04</h4>
+                                <div class="horizontal-rule"></div>
+                                <div class="text">
+                                    <h2 class="subReasonHeading">Competetive Pricing</h2>
+                                    <p>Without compromising the quality we offer the most competetive pricing by
+                                        leveraging global delivery.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>05</h4>
+                                <div class="horizontal-rule"></div>
+                                <div class="text">
+                                    <h2 class="subReasonHeading">Responsive</h2>
+                                    <p>We are responsive, day or night we will quickly address your need and problems,
+                                        our offshore-onshore
+                                        model allows us to provide support for your needs at short notices, round the
+                                        clock.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>06</h4>
+                                <div class="horizontal-rule"></div>
+                                <div class="text">
+                                    <h2 class="subReasonHeading">Built for Scale</h2>
+                                    <p>Our well trained and talented resource pool is quickly scalable, from small to
+                                        large scale projects. We offer multiple
+                                        modes of engagement, suiting all your needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Reasons section end-->
+        </div>
+        <!-- Child Scroll End -->
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Counters section start -->
+            <section class="counters" id="counters">
+                <div class="container">
+                    <div class="counter-s counter-a">
+                        <div class="data">
+                            <div class="counter" data-count="1000">0</div>
+                            <h1>+ <span>Projects</span></h1>
+                        </div>
+                        <h2>In Engineering and IT Industry</h2>
+                    </div>
+                    <div class="counter-s counter-b">
+                        <div class="data">
+                            <div class="counter" data-count="6">0</div>
+                            <h1>+ <span>Years</span></h1>
+                        </div>
+                        <h2>Of Creating Value</h2>
+                    </div>
+                    <div class="counter-s counter-c">
+                        <div class="data">
+                            <div class="counter" data-count="120000">0</div>
+                            <h1>+ <span>Hours</span></h1>
+                        </div>
+                        <h2>In Project Development</h2>
+                    </div>
+                </div>
+            </section>
+            <!-- Counters section end-->
+        </div>
+        <!-- Child Scroll End -->
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Footer Section Start-->
+            <section class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 my-col-1 col-xs-6 col-sm-6 col-lg-3">
+                            <picture>
+                                <img src="./Footer/Footer-logo-desktop.svg" alt="">
+                            </picture>
+                        </div>
+                        <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-lg-3">
+                            <h1>VISIT</h1>
+                            <p>Danville, CA<br>USA, 94526
+                            </p>
+                            <p>Radhaswamy Colony, Market Yard Main Road<br>
+                                Secunderabad, Telengana<br>India, 500009
+                            </p>
+                        </div>
+                        <div class="col my-col-3 col-xs-4 col-sm-4 col-lg-2">
+                            <h1>FOLLOW</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Facebook</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col my-col-4 col-xs-4 col-sm-4 col-lg-2">
+                            <h1>EXPLORE</h1>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="careers.html">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="aboutus.html">About us</a>
+                                </li>
+                                <li>
+                                    <a href="index.html#contact-us">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col my-col-5 col-xs-4 col-sm-4 col-lg-2">
+                            <h1>CONTACT</h1>
+                            <h3>info@sunkpo.com</h3>
+                            <h3>sales@sunkpo.com</h3>
+                            <h3>hr@sunkpo.com</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Section End-->
+        </div>
+        <!-- Child Scroll End -->
+    </div>
+    <!-- Parent Scroll End -->
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="setCarouselActive.js"></script>
+    <script src="counterAnimation.js"></script>
+    <script src="animationServices.js"></script>
+    <script src="backtotopbutton.js"></script>
+    <script src="mobileNav.js"></script>
+</body>
+
+</html>

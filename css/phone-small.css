@@ -1,0 +1,901 @@
+/* Media queries for small phone screens */
+
+@media screen and (max-width:450px) {
+    /* Index.html Start */
+    /* Back to top button start */
+    #back-to-top {
+        position: fixed;
+        bottom: -20px;
+        right: 0px;
+    }
+    #back-to-top:hover {
+        transform: scale(0.5);
+    }
+    /* Back to top button ene */
+    /* Section - Header Start */
+    /* Nav Bar Start */
+    section.header {
+        height: 20vh;
+        /* background-color: lightgoldenrodyellow; */
+    }
+    section.header .container {
+        height: 20vh;
+        padding: 0;
+    }
+    section.header .container .custom-nav-bar {
+        /* background-color: pink; */
+        width: 100%;
+    }
+    /* Targetting Logo */
+    section.header .container .custom-nav-bar .logo {
+        transform: scale(0.6);
+        width: 100%;
+        margin-left: -0.5rem;
+        margin-top: 1rem
+    }
+    /* Targetting the nav links */
+    section.header .container .pc-navigation ul {
+        display: none;
+    }
+    /* Nav Bar End */
+    /* Header Circle Start */
+    section.header .container .header-circle {
+        right: -30px;
+        top: -50px;
+    }
+    /* Header Circle End */
+    /* Section - Header End */
+    /* Section -Hero Start */
+    /* Hero Image */
+    section.hero {
+        height: 80vh;
+        /* background-color: lightblue; */
+    }
+    section.hero .container {
+        height: 80vh;
+        /* background-color: lightpink; */
+    }
+    section.hero .container .row {
+        /* background-color: pink; */
+        margin-top: -4rem;
+    }
+    section.hero .container .row .my-col-1 {
+        /* background-color: purple; */
+        padding-left: 2rem!important;
+    }
+    section.hero .horizontal-rule {
+        margin: 2rem 0 2rem;
+    }
+    section.hero h3 {
+        font-size: 1rem;
+    }
+    section.hero .hero-btn {
+        display: none;
+    }
+    section.hero .container .row .my-col-2 img {
+        transform: scale(0.9);
+        /* background-color: cadetblue; */
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+    section.hero .container .row .my-col-2 img:hover {
+        transform: scale(0.9);
+    }
+    /* Hero Circle Start */
+    section.hero .hero-circle {
+        left: 0px;
+        bottom: -220px;
+    }
+    /* Hero Circle End */
+    /* Section - Hero End */
+    /* Section - Service Start */
+    /* Services Text Start */
+    section.service {
+        /* background-color: yellow; */
+    }
+    section.service .container {
+        /* height: 141vh; */
+        /* background-color: red; */
+        padding: 2rem 0rem;
+    }
+    /* Services Text Start */
+    section.service h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    section.service .horizontal-rule {
+        margin: 2rem 0 2rem;
+    }
+    section.service h3 {
+        margin-bottom: 6rem;
+        font-size: 1.1rem;
+    }
+    /* Service Text End */
+    /* Service Grid Start */
+    section.service .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 5rem;
+        grid-row-gap: 7rem;
+        padding: 0 2rem!important;
+    }
+    section.service .card-wrapper .card img {
+        width: 30%;
+        height: 30%;
+        top: -50px;
+    }
+    section.service .card-wrapper .card h1 {
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+    section.service .card-wrapper .card p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    section.service .card-wrapper .card a {
+        font-size: 1.1rem;
+    }
+    /* Service Circle Start */
+    section.service .services-circle {
+        position: absolute;
+        /* background-color: blue; */
+        left: 0%;
+        bottom: 0;
+        z-index: -1;
+    }
+    /* Service Circle End */
+    /* Section - Service End */
+    /* Section - Testimonials Start */
+    section.testimonials .container {
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items: center;
+    }
+    section.testimonials .testimonials-wrapper {
+        /* background-color: blue; */
+    }
+    /* Testimonials Text Start */
+    section.testimonials h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    section.testimonials .horizontal-rule {
+        margin: 1rem 0 2rem;
+    }
+    section.testimonials h3 {
+        margin-bottom: 6rem;
+    }
+    /* Testimonials Text End */
+    /* Testimonials Grid Start */
+    section.testimonials .card-wrapper {
+        grid-column-gap: 3rem;
+    }
+    section.testimonials .upper {
+        padding: 2rem 2rem 0rem;
+    }
+    /* Testimonials Grid End */
+    /* Section - Testimonials End */
+    /* Section - Contact start */
+    section.contact {
+        height: 100%;
+        margin-top: 2rem;
+    }
+    section.contact .container {
+        height: 100%;
+    }
+    /*--------- Address section start -------------------*/
+    section.contact .row .my-col-1 h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    section.contact .row .my-col-1>h3 {
+        font-size: 1rem;
+    }
+    section.contact .row .my-col-1 .contact-card .location {
+        width: 7%;
+    }
+    section.contact .row .my-col-1 .contact-card img {
+        width: 7%;
+    }
+    section.contact .row .my-col-1 .contact-card .flag {
+        margin-left: 0rem;
+    }
+    section.contact .row .my-col-1 .contact-card>h3 {
+        margin: 0 1rem;
+    }
+    section.contact .row .my-col-1 p {
+        /* background-color: pink; */
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+    }
+    /*--------- Address section End -------------------*/
+    /*--------- Call to action section start -------------------*/
+    section.contact .row .my-col-2 h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        /* background-color: blue; */
+    }
+    section.contact .row .my-col-2 h3 {
+        font-size: 1.1rem;
+        /* background-color: red; */
+    }
+    /* section.contact .row .my-col-2 > h3 + h3{
+        color: var(--pure);
+        font-weight: 900;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        margin-left: 0;
+        background-color: pink;
+    } */
+    section.contact .row .my-col-2 .email img {
+        width: 7%;
+    }
+    section.contact .row .my-col-2 .email h3 {
+        font-size: 1.1rem;
+    }
+    section.contact .row .my-col-2 .horizontal-rule-2 {
+        height: 5px;
+        width: 70%;
+        margin-left: 2.9rem;
+    }
+    section.contact .row .my-col-2 .socials {
+        margin-top: 2rem;
+    }
+    section.contact .row .my-col-2 .socials img {
+        width: 5%;
+    }
+    section.contact .row .my-col-2 .socials img:hover {
+        transform: scale(1.5);
+    }
+    /*--------- Call to action section end -------------------*/
+    /*Section - Contact Us End*/
+    /* Footer section start */
+    section.footer .row .my-col-1 {
+        /* background-color: lightblue; */
+        width: 100%;
+    }
+    section.footer .row .my-col-1 picture img {
+        /* background-color: blue; */
+    }
+    section.footer .row .my-col-2 {
+        /* background-color: lightgreen; */
+        padding: 1rem;
+    }
+    section.footer .row .my-col-3 {
+        /* background-color: lightyellow; */
+        padding: 1rem;
+    }
+    section.footer .row .my-col-4 {
+        /* background-color: lightpink; */
+        padding: 1rem;
+    }
+    section.footer .row .my-col-5 {
+        /* background-color: lightcoral; */
+        padding: 1rem;
+        height: 100%;
+    }
+    section.footer h1 {
+        font-size: 1.1rem;
+    }
+    section.footer .row .my-col-2 p {
+        font-size: 0.8rem;
+    }
+    section.footer .row ul {
+        padding: 0;
+    }
+    section.footer .row li {
+        margin-top: 1rem;
+    }
+    section.footer .row li a {
+        font-size: 0.8rem;
+    }
+    section.footer .row .my-col-5 h3 {
+        font-size: 0.8rem;
+        /* background-color: yellow; */
+    }
+    /* Footer section end */
+    /* Index.html End */
+    /* Services.html Start */
+    /* Changing the scroll behaviour to proximity */
+    .parent {
+        scroll-snap-type: y proximity;
+    }
+    /* Section - Services Txt Start*/
+    section.services-txt .container {
+        /* height: 35vh; */
+        /* background-color: pink; */
+        padding: 2rem 1rem;
+    }
+    section.services-txt h1 {
+        font-size: 1.9rem;
+    }
+    section.services-txt .horizontal-rule {
+        width: 40%;
+        margin: 2rem 0 2rem;
+    }
+    section.services-txt p {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+    /* Services nav start*/
+    section.services-txt .container .services-txt-2 .services-nav {
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    section.services-txt .container .services-txt-2 .services-nav h3 {
+        margin-bottom: 1rem;
+    }
+    section.services-txt .container .services-txt-2 .services-nav h4 {
+        display: none;
+    }
+    /* Services-Txt circle Start */
+    section.services-txt .services-circle-2 {
+        position: absolute;
+        left: -38%;
+        top: 0;
+        z-index: -1;
+    }
+    /* Services-Txt circle End */
+    /* Section - Services Txt End*/
+    /* Serction - Services Start */
+    /* Services carousel style start */
+    #services {
+        height: 100%;
+        position: relative;
+        /* background-color: blue; */
+    }
+    section.services #carousel-wrapper {
+        /* background-color: green; */
+        padding-top: 2rem;
+    }
+    section.services .carousel .card-outer-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* background-color: green; */
+        align-items: flex-start;
+    }
+    section.services .carousel .card-outer-wrapper h1 {
+        /* background-color: red; */
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+    section.services .carousel .card-outer-wrapper h1 span {
+        color: var(--primary);
+        /* background-color: red; */
+        display: block;
+    }
+    section.services .carousel .carousel-item {
+        /* background-color: blue; */
+        padding-top: 0rem;
+    }
+    section.services .carousel .card-inner-wrapper {
+        display: flex;
+        flex-direction: column;
+        /* background-color: purple;     */
+        align-items: flex-start;
+        /* margin-top: 2rem; */
+    }
+    section.services .carousel .card-inner-wrapper .middle-section picture {
+        /* background-color: pink; */
+        width: 100%;
+    }
+    section.services .carousel .card-inner-wrapper .middle-section picture img {
+        width: 300px;
+        height: 300px;
+        margin: 0rem;
+    }
+    section.services .carousel .card-inner-wrapper .left-section {
+        order: 2;
+        /* background-color: blue; */
+    }
+    section.services .carousel .card-inner-wrapper .middle-section {
+        order: 1;
+        /* background-color: purple; */
+    }
+    section.services .carousel .card-inner-wrapper .right-section {
+        order: 3;
+    }
+    section.services .carousel .card-inner-wrapper .content .graphic img {
+        /* background-color: lightcoral; */
+        height: 40px;
+        width: 40px;
+    }
+    section.services .carousel .card-inner-wrapper .content .text {
+        width: 250px;
+    }
+    section.services .carousel .card-inner-wrapper .content .text h3 {
+        font-size: 0.9rem;
+    }
+    section.services .carousel .card-inner-wrapper .content .text p {
+        font-size: 0.8rem;
+    }
+    section.services .carousel .left-slidder {
+        position: absolute;
+        left: 80%;
+        top: 30px;
+        z-index: 2;
+        transform: scale(0.6);
+    }
+    section.services .carousel .right-slidder {
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        transform: scale(0.6);
+    }
+    /* Services carousel style end */
+    #services .services-circle-3 {
+        display: none;
+    }
+    /* Section - Services End */
+    /* Section - Reasons Start */
+    section.reasons {
+        background-color: rgba(255, 169, 112, 0.28);
+        height: 100%;
+    }
+    section.reasons .container {
+        text-align: center;
+        height: 100%;
+        padding: 4rem 2rem;
+    }
+    section.reasons h1 {
+        margin-bottom: 4rem;
+    }
+    section.reasons .content .text p {
+        font-size: 0.8rem;
+    }
+    section.reasons .reason-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 3rem;
+        grid-row-gap: 3rem;
+    }
+    /* Section - Reasons End */
+    /* Section - counters start */
+    section.counters .container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 4rem 2rem 2rem;
+        flex-direction: column;
+    }
+    section.counters .counter-s {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    section.counters .data {
+        display: flex;
+        align-items: center;
+        /* background-color: purple; */
+        justify-content: center;
+    }
+    section.counters .data .counter {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    section.counters .data h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+        color: var(--secondary);
+    }
+    /* Section - counters end */
+    /* Services.html End */
+    /* Careers.html Start */
+    /* Changing the scroll behaviour to proximity */
+    .parent {
+        scroll-snap-type: y proximity;
+    }
+    /* Section - Careers-hero start */
+    section.careers-hero .container {
+        /* background-color: purple; */
+        padding: 2rem 1rem;
+    }
+    section.careers-hero h1 {
+        font-size: 1.9rem;
+    }
+    section.careers-hero .horizontal-rule {
+        width: 40%;
+        margin: 2rem 0 2rem;
+    }
+    section.careers-hero .para1 {
+        font-size: 1rem;
+    }
+    section.careers-hero p {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+    /* Careers nav start */
+    section.careers-hero .container .careers-txt .careers-nav {
+        /* background-color: blue; */
+        flex-direction: column;
+        margin-left: -2rem;
+    }
+    section.careers-hero .container .careers-txt .careers-nav h3 {
+        margin-bottom: 1.2rem;
+    }
+    section.careers-hero .container .careers-txt .careers-nav h4 {
+        display: none;
+    }
+    /* Careers nav End */
+    section.careers-hero .careers-circle {
+        position: absolute;
+        left: -38%;
+        top: 250px;
+        z-index: -1;
+    }
+    /* Section - Careers-hero End */
+    /* Section - Careers Hero-Content Start */
+    section.hero-content {
+        height: 100vh;
+        /* background-color: lightblue; */
+    }
+    section.hero-content .container {
+        height: 100vh;
+        /* background-color: lightblue; */
+        /* margin-top:-5rem; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.hero-content .text {
+        width: 100%;
+        word-wrap: break-word;
+        padding: 1rem;
+        /* background-color: purple; */
+        text-align: center;
+        margin-top: 3rem;
+    }
+    section.hero-content .text h1 {
+        font-size: 2rem;
+        /* background-color: purple; */
+    }
+    section.hero-content .text p {
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    section.hero-content .graphic {
+        /* background-color: red; */
+        margin-top: -1rem;
+    }
+    section.hero-content .graphic picture img {
+        transform: scale(0.55);
+    }
+    /* Section - Careers Hero-Content End */
+    /* Section - Careers Culture Start */
+    section.culture {
+        height: 100vh;
+    }
+    section.culture .container {
+        height: 100vh;
+        padding: 3rem 2rem;
+    }
+    /* culture heading start */
+    section.culture .culture-txt h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    section.culture .culture-txt .horizontal-rule {
+        width: 65%;
+        margin: 1rem 0 3rem;
+    }
+    /* culture heading end */
+    /* content styles */
+    section.culture .content {
+        width: 300px;
+    }
+    section.culture .content h4 {
+        font-size: 1rem;
+    }
+    section.culture .content .text {
+        width: 2000px;
+    }
+    section.culture .content .text h2 {
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+    section.culture .content .text p {
+        font-size: 0.8rem;
+    }
+    /* reason wrapper */
+    section.culture .reason-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Section - Careers Culture End */
+    /* Sectino - Careers Benifits Start */
+    /* benifits heading start */
+    section.benifits .benifits-outer-wrapper {
+        padding: 0;
+    }
+    section.benifits .benifits-txt h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    section.benifits .benifits-txt .horizontal-rule {
+        margin: 1rem 0 3rem;
+        width: 40%;
+    }
+    /* benifits heading end */
+    /* benifits card section start */
+    section.benifits .benifits-wrapper {
+        /* background-color: lightyellow; */
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+    section.benifits .benifits-wrapper .benifits-card img {
+        /* background-color: lightcoral; */
+        height: 40px;
+        width: 40px;
+    }
+    section.benifits .benifits-wrapper .benifits-card .text {
+        width: 250px;
+    }
+    section.benifits .benifits-wrapper .benifits-card .text h3 {
+        font-size: 0.9rem;
+    }
+    section.benifits .benifits-wrapper .benifits-card .text p {
+        font-size: 0.8rem;
+    }
+    /* benifits card section end */
+    /* benifits circle start */
+    section.benifits .benifits-circle-1 {
+        position: absolute;
+        top: -50px;
+        left: -250px;
+        transform: scale(0.7);
+        /* display: none; */
+    }
+    section.benifits .benifits-circle-2 {
+        transform: scale(0.7);
+        position: absolute;
+        top: 150px;
+        left: 50%;
+        /* display: none; */
+    }
+    /* benifits circle end */
+    /* Section - Careers Benifits End */
+    /* Section - Careers Jobs Start */
+    /* Jobs heading start */
+    section.jobs .jobs-txt {
+        padding-top: 2rem;
+    }
+    section.jobs .jobs-txt h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    section.jobs .jobs-txt .horizontal-rule {
+        width: 70%;
+    }
+    /* Jobs heading end */
+    /* Jobs tab indisde styling */
+    section.jobs .tabs {
+        display: flex;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        /* background-color: lightblue; */
+    }
+    section.jobs .tabs h3 {
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+    /* Jobs card styling start */
+    section.jobs .card-box .left {
+        width: 100%;
+        padding: 0.1rem;
+    }
+    section.jobs .card-box .left .heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section.jobs .card-box .left .heading h3 {
+        font-size: 0.9rem;
+    }
+    section.jobs .card-box .left .heading h4 {
+        font-size: 0.7rem;
+    }
+    section.jobs .card-box .left p {
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+    section.jobs .card-box .left ul li {
+        color: var(--secondary);
+        font-size: 0.8rem;
+    }
+    /* Jobs card inside styling end */
+    section.jobs .card-box .engineering-card {
+        filter: drop-shadow(4px 2px 5px rgba(0, 0, 0, 0.25));
+        background-color: var(--pure);
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        transition: all 0.3s ease;
+        flex-direction: column;
+    }
+    section.jobs .card-box .engineering-card:hover {
+        transform: scale(1);
+    }
+    section.jobs .card-box .left ul {
+        /* background-color: lightpink; */
+        padding: 0;
+    }
+    section.jobs .card-box .left ul li {
+        text-decoration: none;
+    }
+    /* Jobs circle */
+    section.jobs .jobs-circle {
+        position: absolute;
+        top: 8%;
+        right: 1%;
+        display: none;
+    }
+    /* Section - Careers Jobs End */
+    /* Careers.html End */
+    /* AboutUs.html Start */
+    /*---------------------AboutUs Hero Section Start------------------------------------*/
+    section.aboutus-hero {
+        /* height: 130vh; */
+        /* background-color: lightblue; */
+        position: relative;
+    }
+    section.aboutus-hero .container {
+        padding: 2rem 0 2rem;
+        /* background-color: yellow; */
+    }
+    /* Title style start */
+    section.aboutus-hero h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    section.aboutus-hero .horizontal-rule {
+        width: 40%;
+    }
+    section.aboutus-hero h3 {
+        font-size: 0.9rem;
+    }
+    /* about us nav start */
+    section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav {
+        /* background-color: blue; */
+        flex-direction: column;
+        margin-left: -2rem;
+        margin-bottom: 0rem;
+    }
+    section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h3 {
+        margin-bottom: 1.2rem;
+    }
+    section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h4 {
+        display: none;
+    }
+    /* about us nav end */
+    /* SunKPO details start */
+    section.aboutus-hero .sunkpo-wrapper {
+        flex-direction: column;
+        padding: 2rem;
+        /* background-color: lightpink; */
+    }
+    section.aboutus-hero .sunkpo-wrapper .sunkpo-logo {
+        transform: scale(0.6);
+        /* background-color: rebeccapurple; */
+        margin: 0;
+    }
+    section.aboutus-hero .sunkpo-wrapper .sunkpo-details p {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    /* about us hero circle start */
+    section.aboutus-hero .aboutus-hero-circle {
+        position: absolute;
+        top: 45%;
+        right: -50%;
+        /* background-color: blue; */
+    }
+    /* about us hero circle end */
+    /*---------------------AboutUs Hero Section End------------------------------------*/
+    /*---------------------AboutUs timeline Section start------------------------------------*/
+    section.timeline {
+        height: 1700px;
+        /* background-color: yellow; */
+    }
+    section.timeline .container .timeline-outer-wrapper {
+        margin-top: 3rem;
+    }
+    section.timeline .timeline-outer-wrapper .timeline-years {
+        /* background-color: blue; */
+    }
+    /* Content 1 start*/
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-1 {
+        background-color: white;
+        width: 300px;
+        right: 20px;
+        top: 115px;
+    }
+    section.timeline .timeline-outer-wrapper .content-heading h3 {
+        font-size: 0.9rem;
+    }
+    section.timeline .timeline-outer-wrapper p {
+        font-size: 0.8rem;
+    }
+    /* Content 1 end*/
+    /* Content 2 start */
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-2 {
+        background-color: white;
+        width: 300px;
+        left: 20px;
+        top: 390px;
+    }
+    /* Content 2 end */
+    /* Content 3 start */
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-3 {
+        background-color: white;
+        width: 300px;
+        right: 20px;
+        top: 690px;
+    }
+    /* Content 3 end */
+    /* Content 4 start */
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-4 {
+        background-color: white;
+        width: 300px;
+        left: 20px;
+        top: 958px;
+    }
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-5 {
+        background-color: white;
+        width: 300px;
+        right: 20px;
+        top: 1260px;
+    }
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-6 {
+        background-color: white;
+        width: 300px;
+        left: 25px;
+        top: 1520px;
+    }
+    /* Content 4 end */
+    /* About us timeline circle start */
+    section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-1 {
+        /* background-color: lightpink; */
+        display: none;
+    }
+    section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-2 {
+        /* background-color: lightpink; */
+        display: none;
+    }
+    section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-3 {
+        /* background-color: lightpink; */
+        display: none;
+    }
+    /* About us timeline circle end */
+    /*---------------------AboutUs timeline Section End------------------------------------*/
+    /*---------------------leaders Section start------------------------------------*/
+    section.leaders {
+        margin-top: 4rem;
+    }
+    section.leaders h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    /* Info card style start */
+    section.leaders .info-card {
+        width: 80%;
+        padding: 2rem;
+    }
+    section.leaders .info-card p {
+        text-align: left;
+        font-size: 0.9rem;
+    }
+    section.leaders .info-card .horizontal-rule-info-card {
+        width: 80%;
+    }
+    /* Info card style end */
+    /*---------------------leaders section End------------------------------------*/
+    /* AboutUs.html End */
+}

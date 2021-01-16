@@ -1,0 +1,450 @@
+/*---------------------AboutUs Hero Section Start------------------------------------*/
+section.aboutus-hero{
+    /* height: 85vh; */
+    /* background-color: lightblue; */
+    position: relative;
+}
+/* Title style start */
+section.aboutus-hero .container{
+    padding: 4rem 0 0rem;
+}
+
+section.aboutus-hero .sunkpo-outer-wrapper{
+    /* background-color: lightgreen; */
+    padding: 2rem;
+}
+
+section.aboutus-hero .container .aboutus-hero-txt{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+section.aboutus-hero h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.aboutus-hero .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 12%;
+    margin:2rem 0 3rem;
+    text-align: center;
+}
+
+section.aboutus-hero h3{
+    color: var(--primary);
+    font-size: 1.5rem;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+/* aboutus nav start*/
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav{
+    /* background-color: blue; */
+    display: flex;
+    margin-bottom: 3rem;
+    align-items: center;
+    margin-left: -4rem;
+}
+
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h3{
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h3 a{
+    text-decoration: none;
+    color: var(--ternary);
+    position: relative;
+}
+
+/*--------- Nav animation start----------------*/
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h3 a::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 0%;
+    background-color: var(--primary);
+    bottom: -0.5rem;
+    transition: all .3s ease-in-out ;
+}
+
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h3 a:hover{
+    color:var(--secondary);
+}
+
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h3 a:hover::after{
+    width: 100%;
+}
+/*--------- Nav animation end----------------*/
+
+section.aboutus-hero .container .aboutus-hero-txt .aboutus-nav h4{
+    color: var(--secondary);
+    margin: 0;
+    margin-left: 1rem;
+}
+/* aboutus nav end */
+/* Title style end */
+/* Hero circle start */
+section.aboutus-hero .aboutus-hero-circle{
+    position: absolute;
+    top:20%;
+    left: -10%;
+    /* background-color: blue; */
+    animation: fadeInLeft;
+    animation-duration: 1s;
+    z-index: -1;
+}
+/* Hero circle end */
+/* SunKPO details start */
+section.aboutus-hero .sunkpo-wrapper{
+    background-color: var(--pure);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.25));
+    border-radius: 60px;
+}
+
+section.aboutus-hero .sunkpo-wrapper .sunkpo-logo{
+    margin-right: 3rem;
+}
+
+section.aboutus-hero .sunkpo-wrapper .sunkpo-details{
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+}
+
+section.aboutus-hero .sunkpo-wrapper .sunkpo-details p{
+    margin: 0;
+    color: var(--secondary);
+}
+
+section.aboutus-hero .sunkpo-wrapper .sunkpo-details .para1{
+    margin-bottom: 1rem;
+}
+
+/* SunKPO details end */
+/*---------------------AboutUs Hero Section End------------------------------------*/
+/*---------------------AboutUs timeline Section start------------------------------------*/
+section.timeline{
+    height: 170vh;
+    /* background-color: green; */
+}
+
+section.timeline .container .timeline-outer-wrapper{
+    /* background-color: lightblue; */
+    position: relative;
+    height: 500px;
+    margin-top:4rem;
+}
+
+section.timeline .timeline-outer-wrapper .timeline-years{
+    display: flex;
+    align-items: top;
+    justify-content: start;
+    position: absolute;
+    top:20px;
+    right: 50%;
+    /* background-color: blue; */
+    transform: translatex(50%);
+    flex-direction: column;
+}
+
+section.timeline .timeline-outer-wrapper .timeline-year-1 .time-2014{
+    background-color: var(--primary);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    /* background-color: red; */
+}
+
+section.timeline .timeline-outer-wrapper .timeline-year-1 .time-2014 h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+section.timeline .timeline-outer-wrapper .timeline-year-1 .small-circle-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: purple; */
+}
+
+section.timeline .timeline-outer-wrapper .timeline-year-1 .small-circle-wrapper .small-circle{
+    background-color:rgba(255, 165, 0,0.5);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+/* Content 1 start*/
+section.timeline .timeline-outer-wrapper .content-outer-wrapper-1{
+    /* background-color: mediumaquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: top;
+    width: 500px;
+    position: absolute;
+    right: 5%;
+    top:4%;
+}
+
+section.timeline .timeline-outer-wrapper .content-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(255,169,112,0.60);
+    padding: 1rem;
+}
+
+section.timeline .timeline-outer-wrapper  .content-heading h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:0;
+}
+
+section.timeline .timeline-outer-wrapper  p{
+    font-size: 1rem;
+    color:var(--secondary);
+    text-align: center;
+    margin:1rem 0;
+}
+/* Content 1 end*/
+/* Content 2 start */
+section.timeline .timeline-outer-wrapper .content-outer-wrapper-2{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: top;
+    width: 500px;
+    position: absolute;
+    left: 5%;
+    top:50%;
+}
+/* Content 2 end */
+/* Content 3 start */
+section.timeline .timeline-outer-wrapper .content-outer-wrapper-3{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: top;
+    width: 500px;
+    position: absolute;
+    right: 5%;
+    top:105%;
+}
+/* Content 3 end */
+/* Content 4 start */
+section.timeline .timeline-outer-wrapper .content-outer-wrapper-4{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: top;
+    width: 500px;
+    position: absolute;
+    left: 5%;
+    top:160%;
+}
+/* Content 4 end */
+/* Content 5 start */
+section.timeline .timeline-outer-wrapper .content-outer-wrapper-5{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: top;
+    width: 500px;
+    position: absolute;
+    right: 5%;
+    top:220%;
+}
+/* Content 5 end */
+/* Content 6 start */
+section.timeline .timeline-outer-wrapper .content-outer-wrapper-6{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: top;
+    width: 500px;
+    position: absolute;
+    left: 5%;
+    top:280%;
+}
+/* Content 6 end */
+
+/* About us timeline circle start */
+section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-1{
+    /* background-color: lightpink; */
+    z-index: -1;
+    position:absolute;
+    right: -30%;
+    top:10%;
+}
+
+section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-2{
+    /* background-color: lightpink; */
+    z-index: -1;
+    position:absolute;
+    left: -23%;
+    top:110%;
+}
+
+section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-3{
+    /* background-color: lightpink; */
+    z-index: -1;
+    position:absolute;
+    right: -40%;
+    top:210%;
+}
+
+/* About us timeline circle end */
+/*---------------------AboutUs timeline Section End------------------------------------*/
+/*---------------------leaders Section start------------------------------------*/
+section.leaders {
+    background-color: rgba(255,169,112,0.28);
+    margin-top:6rem;
+}
+
+section.leaders .container{
+    text-align: center;
+    padding: 3rem 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+
+section.leaders .container .leaders-txt{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+section.leaders h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center; 
+}
+
+section.leaders .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 100%;
+    margin:2rem 0 3rem;
+    text-align: center;
+}
+
+/* Info card style start */
+
+section.leaders .info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--pure);
+    padding: 3rem;
+    filter: drop-shadow(4px 4px 10px rgba(0,0,0,0.25));
+    border-radius: 60px;
+    width: 70%;
+    margin-bottom: 3rem;
+    /* background-color: blue; */
+    position: relative;
+}
+
+section.leaders .info-card picture{
+    /* background-color: green; */
+    transform: scale(0.6);
+    position: absolute;
+    top:-70px;
+    right: 20px;
+}
+
+section.leaders .info-card picture img{
+    /* background-color: blue; */
+}
+
+section.leaders .info-card h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color:var(--primary);
+    margin-bottom: 1rem;
+}
+
+section.leaders .info-card h3{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:var(--primary);
+}
+
+section.leaders .info-card .horizontal-rule-info-card{
+    background-color:var(--secondary);
+    height: 10px;
+    border-radius: 20px;
+    width: 12%;
+    margin:0.5rem 0 2rem;
+    text-align: center;
+}
+
+section.leaders .info-card p{
+    text-align: left;
+    color:var(--secondary);
+}
+
+section.leaders .info-card .p2{
+    margin-bottom: 2rem;
+}
+
+section.leaders .info-card .socials{
+    display: flex;
+    margin: 0rem auto 0rem;
+}
+
+section.leaders .info-card .socials a{
+    margin-right: 3rem;
+}
+
+section.leaders .info-card .socials a img{
+    transition: all 0.3s ease;
+}
+
+
+section.leaders .info-card .socials img:hover{
+    transform: scale(1.5);
+}
+/* Info card style end */
+
+/*---------------------leaders section End------------------------------------*/
+
+/*---------------------AboutUs-page End---------------------------------*/

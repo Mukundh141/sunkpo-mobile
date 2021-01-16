@@ -1,0 +1,532 @@
+/*---------------------Careers - Hero Start ----------------------------------*/
+/* Careers heading style start */
+section.header {
+    /* background-color: blue; */
+}
+
+section.careers-hero {
+    position: relative;
+    /* background-color: pink; */
+}
+
+section.careers-hero .container{
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+
+section.careers-hero .container .careers-txt{
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+section.careers-hero h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.careers-hero .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 12%;
+    margin:2rem 0 3rem;
+    text-align: center;
+}
+
+section.careers-hero .para1{
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: lightSpeedInLeft;
+    animation-duration: 2s;
+}
+
+section.careers-hero p{
+    color: var(--secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Careers nav start*/
+section.careers-hero .container .careers-txt .careers-nav{
+    /* background-color: blue; */
+    display: flex;
+    margin-bottom: 3rem;
+    align-items: center;
+    margin-left: -4rem;
+}
+
+section.careers-hero .container .careers-txt .careers-nav h3{
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+section.careers-hero .container .careers-txt .careers-nav h3 a{
+    text-decoration: none;
+    color: var(--ternary);
+    position: relative;
+}
+
+/*--------- Nav animation start----------------*/
+section.careers-hero .container .careers-txt .careers-nav h3 a::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 0%;
+    background-color: var(--primary);
+    bottom: -0.5rem;
+    transition: all .3s ease-in-out ;
+}
+
+section.careers-hero .container .careers-txt .careers-nav h3 a:hover{
+    color:var(--secondary);
+}
+
+section.careers-hero .container .careers-txt .careers-nav h3 a:hover::after{
+    width: 100%;
+}
+/*--------- Nav animation end----------------*/
+
+
+section.careers-hero .container .careers-txt .careers-nav h4{
+    color: var(--secondary);
+    margin: 0;
+    margin-left: 1rem;
+}
+/* Careers nav end */
+/* Careers button */
+
+section.careers-hero .container .careers-txt .my-btn-primary:hover{
+    margin-top:0;
+}
+
+section.careers-hero .container .careers-txt h3{
+    font-size: 4rem;
+}
+
+section.careers-hero .container .careers-txt h3 a{
+    text-decoration: none;
+    color: var(--primary);
+
+}
+
+section.careers-hero .careers-circle{
+    position: absolute;
+    left:-4%;
+    top:0;
+    z-index: -1;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+/*---------------------Careers - Hero End ----------------------------------*/
+/*---------------------Careers - Hero-Content Start ----------------------------------*/
+ section.hero-content{
+    /* background-color: red; */
+    height: 50vh;
+    /* margin-top:-17rem; */
+} 
+
+section.hero-content .container {
+    /* background-color: rebeccapurple; */
+    height: 50vh;
+    padding: 0!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+section.hero-content .text h1{
+    color:var(--primary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+section.hero-content .text p{
+    font-size: 1.2rem;
+    text-align: left;
+    width: 500px;
+    color:var(--secondary);
+}
+
+/*---------------------Careers - Hero-Content End ----------------------------------*/
+/*---------------------Careers - Culture Start ----------------------------------*/
+/* Careers culture section start  */
+section.culture{
+    background-color: rgba(255,169,112,0.28);
+    height: 50vh;
+}
+
+section.culture .container{
+    text-align: center;
+    height: 50vh;
+    padding: 0;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+}
+
+section.culture .culture-wrapper{
+    /* background-color: blue; */
+    width: 100%;
+}
+
+/* culture heading start */
+section.culture .culture-txt{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+section.culture .culture-txt h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.culture .culture-txt .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 20%;
+    margin:1rem 0 6rem;
+    text-align: center;
+}
+/* culture heading end */
+/* content styles */
+section.culture .content{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: start;
+    align-items: flex-start;
+    width: 300px;
+}
+
+section.culture .content h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin:0;
+    /* background-color: lightcoral; */
+    width: 60px;
+    text-align: left;
+    margin-right: 0.5rem;
+}
+
+section.culture .content .horizontal-rule{
+    background-color:var(--primary);
+    height: 5px;
+    border-radius: 20px;
+    width: 150px;
+    margin-top:0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.culture .content .text{
+    width: 1000px;
+}
+
+section.culture .content .text h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    /* background-color: lightblue; */
+}
+
+section.culture .content .text p{
+    color: var(--secondary);
+    font-size: 0.9rem;
+    text-align: start;
+    margin:0;
+    /* background-color: green; */
+}
+
+/* reason wrapper */
+section.culture .reason-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:3rem;
+    grid-row-gap:3rem;
+}
+/* Careers culture section end */
+/*---------------------Careers - Culture End ----------------------------------*/
+/*---------------------Careers - Benifits Start ----------------------------------*/
+/* Benifits section start */
+/* benifits heading start */
+section.benifits{
+    position: relative;
+    height: 100vh;
+}
+
+section.benifits .container{
+    height: 100vh;
+    /* background-color: lightblue; */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+section.benifits .benifits-outer-wrapper{
+    /* background-color: blue; */
+    width: 100%;
+    padding:4rem 0;
+}
+
+section.benifits .benifits-txt{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+section.benifits .benifits-txt h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.benifits .benifits-txt .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 13%;
+    margin:1rem 0 8rem;
+    text-align: center;
+}
+/* benifits heading end */
+/* benifits card section start */
+section.benifits .benifits-wrapper{
+    /* background-color: purple; */
+    padding:0;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap:1rem;
+    grid-row-gap:5rem;
+    padding: 0 3rem;
+}
+
+section.benifits .benifits-wrapper .benifits-card{
+    display: flex;
+    align-items: top;
+    /* background-color: green; */
+    justify-content: center;
+}
+
+/* section.benifits .benifits-wrapper .card-1{
+    transform: translateX(35%);
+}
+
+section.benifits .benifits-wrapper .card-2{
+    transform: translateX(125%);
+}
+
+section.benifits .benifits-wrapper .card-3{
+    transform: translateX(35%);
+}
+
+section.benifits .benifits-wrapper .card-4{
+    transform: translateX(125%);
+}  */
+
+section.benifits .benifits-wrapper .benifits-card img{
+    /* background-color: lightcoral; */
+    height: 60px;
+    width: 60px;
+}
+
+section.benifits .benifits-wrapper .benifits-card .text{
+    margin-left:1rem;
+    width: 400px;
+}
+
+section.benifits .benifits-wrapper .benifits-card .text h3{
+    font-weight: bold;
+    color: var(--dark);
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+section.benifits .benifits-wrapper .benifits-card .text p{
+    text-align: left;
+    color: var(--secondary);
+    font-size: 1rem;
+    margin: 0;
+}
+/* benifits card section end */
+/* benifits circle start */
+section.benifits .benifits-circle-1{
+    position: absolute;
+    top:30%;
+    left: -10%;
+
+
+}
+
+section.benifits .benifits-circle-2{
+    position: absolute;
+    top:10%;
+    right: -30%;
+}
+/* benifits circle end */
+/* Benifits section end */
+/*---------------------Careers - Benifits End ----------------------------------*/
+/*---------------------Careers - Jobs Start ----------------------------------*/
+/* Jobs section start */
+/* Jobs heading start */
+section.jobs{
+    position: relative;
+    /* background-color: blue; */
+}
+section.jobs .jobs-txt{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top:3rem;
+}
+
+section.jobs .jobs-txt h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.jobs .jobs-txt .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 23%;
+    margin:1rem 0 3rem;
+    text-align: center;
+}
+/* Jobs heading end */
+/* Jobs tab indisde styling */
+section.jobs .tabs{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+section.jobs .tabs h3{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Jobs card styling start */
+section.jobs .card-box .left .heading {
+    display: flex;
+    align-items: center;
+    /* background-color: lightblue; */
+}
+
+section.jobs .card-box .left .heading h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+section.jobs .card-box .left .heading h4{
+    color: var(--primary);
+    margin-left: 3rem;
+    font-size: 0.9rem;
+}
+
+section.jobs .card-box .left p{
+    color:var(--secondary);
+    width:1000px;
+    font-size: 0.9rem;
+    margin-top:1rem;
+    /* background-color: lightpink; */
+}
+
+section.jobs .card-box .left ul li{
+    color:var(--secondary);
+}
+
+section.jobs .card-box .right .my-btn-primary:hover{
+    margin-top:0rem;
+}
+/* Jobs card inside styling end */
+/* Jobs card outer styling start */
+section.jobs .card-box .engineering-card{
+    filter: drop-shadow(4px 2px 5px rgba(0,0,0,0.25));
+    background-color: var(--pure);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+section.jobs .card-box .engineering-card:hover{
+    /* transform: scale(1.1); */
+}
+/* Jobs card outer styling end */
+/* Jobs card postioning start */
+section.jobs .card-box{
+    position: relative;
+    margin-bottom: 40rem;
+}
+
+section.jobs .card-box #engineering-card-wrapper{
+    /* background-color: purple; */
+    position: absolute;
+    top:0;
+}
+
+section.jobs .card-box #it-card-wrapper{
+    /* background-color: BLUE; */
+    position: absolute;
+    top:0;
+}
+/* Jobs card postioning end */
+/* Animation classes */
+section.jobs .tabs .active{
+    color:var(--primary);
+}
+
+
+section.jobs .card-box .active-card{
+    z-index: 2;
+    display: visible;
+}
+
+section.jobs .card-box .deactive-card{
+    z-index: 0;
+    display: none;
+}
+
+.desktop_and_laptop_height_engineering{
+    height: 800px;
+}
+
+.desktop_and_laptop_height_IT{
+    height: 1500px;
+}
+
+/* Jobs section end */
+/* Jobs circle */
+section.jobs .jobs-circle{
+    position: absolute;
+    top: 5%;
+    right: 10%; 
+} 
+/*---------------------Careers - Jobs End ----------------------------------*/

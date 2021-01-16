@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en" id="top">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/laptop.css">
+    <link rel="stylesheet" href="./css/largeLaptop.css">
+    <link rel="stylesheet" href="./css/phone-small.css">
+    <link rel="stylesheet" href="./css/scroll-index.css">
+    <link rel="stylesheet" href="./css/mobileNav.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
+    <title>Sun KPO</title>
+</head>
+
+<body>
+    <!-- Mobile Hamburger Menu Start -->
+    <div class="mobile-menu">
+        <img id="times" src="./svgs/times.svg" alt="">
+        <img id="mobilenavlogo" src="./svgs/mobileNav-logo.svg" alt="">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="careers.html">Careers</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="#contact-us">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Hamburger Menu End -->
+    <!-- Parent Scroll Start -->
+    <div class="parent">
+        <!-- Back to top button start-->
+        <button id="back-to-top"><img src="./svgs/back-to-top.svg" alt=""></button>
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Header Section Start -->
+            <section class="header">
+                <img id="hamburger" src="./svgs/hamburger.svg" alt="">
+                <div class="container">
+                    <!--PC Nav Bar Start-->
+                    <nav class="custom-nav-bar">
+                        <picture>
+                            <a href="index.html"><img class="logo" src="./Logo/LOGO.svg" alt=""></a>
+                        </picture>
+                        <div class="pc-navigation">
+                            <ul class="nav" id="main-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="careers.html">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="aboutus.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- PC Nav Bar End -->
+                    <!-- Header Circle Start-->
+                    <div class="header-circle">
+                        <picture>
+                            <source srcset="/svgs/Header-circle-phone.svg" media="(max-width: 576px)">
+                            <source srcset="/svgs/Header-circle-tab.svg" media="(max-width: 1200px)">
+                            <img src="svgs/Header-circle-desktop.svg" alt="">
+                        </picture>
+                    </div>
+                    <!-- Header Circle End-->
+                </div>
+            </section>
+            <!-- Header Section End -->
+            <!-- Hero Section Start -->
+            <section class="hero" id="hero">
+                <div class="container">
+                    <!-- Hero Text and Image Start -->
+                    <div class="row d-flex flex-row justify-content-between align-items-center">
+                        <div class="col my-col-1 col-12 col-xl-6 p-2">
+                            <h1>OUTSOURCING</h1>
+                            <h1>MADE SIMPLE!</h1>
+                            <div class="horizontal-rule"></div>
+                            <h3>Helping <span>transform</span> your business. </h3>
+                            <h3 class="txt-rotate" data-period="2000"
+                                data-rotate='[ "Engineering Services", "IT Services", "IoT & Embedded Systems", "Support"]'>
+                            </h3>
+                            <button class="my-btn-primary hero-btn"><a href="#services">Know More</a></button>
+                        </div>
+                        <div class="col my-col-2 col-12 col-xl-6 p-2">
+                            <picture>
+                                <img src="./Hero/Hero-img-desktop.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <!-- Hero Text and Image End -->
+                    <!-- Hero Circle Start-->
+                    <div class="hero-circle">
+                        <!--<img src="svgs/Header-circle-desktop.svg" alt="">-->
+                        <picture>
+                            <source srcset="./svgs/Hero-circle-phone.svg" media="(max-width:576px)">
+                            <source srcset="./svgs/Hero-circle-tablet.svg" media="(max-width:1200px)">
+                            <source srcset="./svgs/Hero-circle-laptop.svg" media="(max-width:1400px)">
+                            <img src="./svgs/Hero-circle-desktop.svg" alt="">
+                        </picture>
+                    </div>
+                    <!-- Header Circle End-->
+                </div>
+            </section>
+            <!-- Hero Section End -->
+            <!-- Child Scroll End -->
+        </div>
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Services Section Start -->
+            <section class="service scroll-area" id="services">
+                <div class="container">
+                    <!--Services Text Start-->
+                    <div class="services-txt">
+                        <h1>GET IN TOUCH WITH US!</h1>
+                        <div class="horizontal-rule"></div>
+                        <h3>We <span>offer</span> the following services!</h3>
+                    </div>
+                    <!--Services Text End-->
+                    <!-- Services grid Start-->
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a class="card-link " href="services.html#mechanical-engineering"></a>
+                            <img src="./Services/Mechanical.svg" alt="">
+                            <h1>Mechanical <br>Engineering</h1>
+                            <p>Engineering design
+                                and development - 2D, 3D design, drafting, detailing ,
+                                legacy design conversions, analysis, tools porting,
+                                paper to electronic form conversion, technical
+                                publishing...</p>
+                            <a class="read-more" href="services.html#mechanical-engineering" id="mechanical">Read
+                                More
+                                ...</a>
+                        </div>
+                        <div class="card">
+                            <a class="card-link " href="services.html#electrical-engineering"></a>
+                            <img src="./Services/electrical.svg" alt="">
+                            <h1>Electrical <br>Engineering</h1>
+                            <p>Electrical design and drafting, legacy circuits diagrams to electronic form
+                                conversion,
+                                Electrical panels and Boards, Harness design, CAD design for enclosures, Sheet metal
+                                etc... </p>
+                            <a class="read-more" href="services.html#electrical-engineering" id="electrical">Read
+                                More
+                                ...</a>
+                        </div>
+                        <div class="card">
+                            <a class="card-link " href="services.html#plc-programming"></a>
+                            <img src="./Services/PLC.svg" alt="">
+                            <h1>PLC <br>Programming</h1>
+                            <p>SCADA and PLC programming, Ladder programming, Panel design and layouts, Process
+                                control
+                                and monitoring, Industrial sensors and networking....</p>
+                            <a class="read-more" href="services.html#plc-programming" id="plc">Read More ...</i></a>
+                        </div>
+                        <div class="card">
+                            <a class="card-link " href="services.html#it-services"></a>
+                            <img src="./Services/IT.svg" alt="">
+                            <h1>IT Services</h1>
+                            <p>Application Design and Development, Support,
+                                Maintenance, Legacy porting, Technology conversion,
+                                Production support, Service call management,
+                                Remote infrastructure management, Cloud implementations...</p>
+                            <a class="read-more" href="services.html#it-services" id="it">Read More ...</a>
+                        </div>
+                        <div class="card">
+                            <a class="card-link " href="services.html#digital-solutions"></a>
+                            <img src="./Services/digital.svg" alt="">
+                            <h1>Digital Solutions</h1>
+                            <p>Web and Mobile Digital platforms and applications,
+                                Cloud (AWS/Azure), Mobile (Android, IOS,React),
+                                e-Commerce and Custom digital solutions..</p>
+                            <a class="read-more" href="services.html#digital-solutions" id="digital">Read More
+                                ...</a>
+                        </div>
+                        <div class="card">
+                            <a class="card-link " href="services.html#iot-embedded"></a>
+                            <img src="./Services/IOT.svg" alt="">
+                            <h1>IOT and Embedded</h1>
+                            <p>IOT , Industry 4.0, Telematics,
+                                Embedded Circuit design and programming,
+                                Board design, Schematic capture ,
+                                PCB layout and manufacturing support,
+                                Embedded firmware, Application development, Product support...</p>
+                            <a class="read-more" href="services.html#iot-embedded" id="iot">Read More ...</a>
+                        </div>
+                    </div>
+                    <!-- Services grid End-->
+                    <!-- Services Circle Start-->
+                    <div class="services-circle">
+                        <!--<img src="svgs/Header-circle-desktop.svg" alt="">-->
+                        <picture>
+                            <source srcset="./svgs/Services-circle-mobile.svg" media="(max-width: 576px)">
+                            <source srcset="./svgs/Services-circle-tablet.svg" media="(max-width: 1200px">
+                            <source srcset="./svgs/Services-circle-laptop.svg" media="(max-width: 1400px)">
+                            <img src="./svgs/Services-circle-desktop.svg" alt="">
+                        </picture>
+                    </div>
+                    <!-- Services Circle End-->
+                </div>
+            </section>
+            <!-- Services Section End -->
+        </div>
+        <!-- Child Scroll End-->
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Contact Us Section Start -->
+            <section class="contact scroll-area" id="contact-us">
+                <div class="container">
+                    <div class="contact-wrapper">
+                        <div class="row my-row">
+                            <div class="col col-12 col-md-6 my-col-1">
+                                <h1>WE ARE HERE</h1>
+                                <h3>You are welcome to visit us at</h3>
+                                <div class="contact-card">
+                                    <img class="location" src="./Contact/geoCode.svg" alt="">
+                                    <h3>Our USA office</h3>
+                                    <img class="flag" src="./Contact/united-states.svg" alt="">
+                                </div>
+                                <p>Danville, CA <br>
+                                    USA, 94526</p>
+                                <div class="contact-card">
+                                    <img class="location" src="./Contact/geoCode.svg" alt="">
+                                    <h3>Our India office</h3>
+                                    <img class="flag" src="./Contact/india.svg" alt="">
+                                </div>
+                                <p>Radhaswamy Colony, Market Yard Main Road <br>
+                                    Secunderabad, Telengana <br>
+                                    India, 500009</p>
+                            </div>
+                            <div class="col my-col-2">
+                                <h1>CONNECT WITH US</h1>
+                                <h3>For General Information</h3>
+                                <div class="email">
+                                    <img src="./Contact/Vector-1.svg" alt="">
+                                    <h3>info @ sunkpo . com</h3>
+                                </div>
+                                <div class="horizontal-rule-2"></div>
+                                <h3>For Sales Enquiries</h3>
+                                <div class="email">
+                                    <img src="./Contact/Vector-1.svg" alt="">
+                                    <h3>sales @ sunkpo . com</h3>
+                                </div>
+                                <div class="horizontal-rule-2"></div>
+                                <h3>For Jobs and HR</h3>
+                                <div class="email">
+                                    <img src="./Contact/Vector-1.svg" alt="">
+                                    <h3>hr @ sunkpo . com</h3>
+                                </div>
+                                <div class="horizontal-rule-2"></div>
+                                <div class="socials">
+                                    <a href=""><img src="./Contact/Vector-2.svg" alt=""></a>
+                                    <a href=""><img src="./Contact/Vector-3.svg" alt=""></a>
+                                    <a href=""><img src="./Contact/Vector-5.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Us Section End -->
+        </div>
+        <!-- Child Scroll End-->
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Footer Section Start-->
+            <section class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 my-col-1 col-xs-6 col-sm-6 col-lg-3">
+                            <picture>
+                                <img src="./Footer/Footer-logo-desktop.svg" alt="">
+                            </picture>
+                        </div>
+                        <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-lg-3">
+                            <h1>VISIT</h1>
+                            <p>Danville, CA<br>USA, 94526
+                            </p>
+                            <p>Radhaswamy Colony, Market Yard Main Road<br>
+                                Secunderabad, Telengana<br>India, 500009
+                            </p>
+                        </div>
+                        <div class="col my-col-3 col-xs-4 col-sm-4 col-lg-2">
+                            <h1>FOLLOW</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Linkedin</a>
+                                </li>
+                                <li>
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Facebook</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col my-col-4 col-xs-4 col-sm-4 col-lg-2">
+                            <h1>EXPLORE</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="careers.html">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="aboutus.html">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#contact-us">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col my-col-5 col-xs-4 col-sm-4 col-lg-2">
+                            <h1>CONTACT</h1>
+                            <h3>info@sunkpo.com</h3>
+                            <h3>sales@sunkpo.com</h3>
+                            <h3>hr@sunkpo.com</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Section End-->
+        </div>
+        <!-- Child Scroll End -->
+    </div>
+    <!-- Parent Scroll End -->
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="spanAnimation.js"></script>
+    <script src="animationIndex.js"></script>
+    <script src="backtotopbutton.js"></script>
+    <script src="mobileNav.js"></script>
+</body>
+
+</html>

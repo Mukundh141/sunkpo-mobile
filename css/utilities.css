@@ -1,0 +1,284 @@
+/*---------------------Setting Global Variables Start--------------------------*/
+:root{
+    --primary:#ffa500;
+    --dark:#000000;
+    --pure:#FFFFFF;
+    --secondary:rgb(140, 140, 140);
+    --ternary:rgb(255, 169, 112);
+    --hover:rgba(255,169,112,0.80);
+    --testimonialupper:rgba(255,169,112,0.10);
+    --contactbgcolor:rgba(255,169,112,0.28);
+    --footer:rgba(140,140,140,0.50);
+}
+/*---------------------Setting Global Variables End---------------------------*/
+
+
+/*---------------------Resetting Global Styles Start--------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*---------------------Resetting Global Styles End-----------------------------*/
+/*---------------------Section - Header Start------------------------------------*/
+section.header {
+    height: 15vh;
+    /* background-color: blue; */
+    position: relative;
+}
+section.header .container{
+    /* background-color: yellow; */
+    height: 15vh;
+    padding: 1rem;
+}
+/* Nav Bar Start */
+section.header .container .custom-nav-bar{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between; 
+}
+/* Targetting Logo */
+section.header .container .custom-nav-bar .logo{
+    background-color: var(--pure);
+}
+section.header .container .custom-nav-bar .pc-navigation{
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+}
+
+section.header .container .custom-nav-bar .pc-navigation .nav .nav-item a{
+    color: black;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/*--------- Nav animation start----------------*/
+.pc-navigation .nav .nav-item a::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 0.4rem;
+    width: 0%;
+    background-color: var(--primary);
+    bottom: -0.5rem;
+    transition: all .3s ease-in-out ;
+}
+
+.pc-navigation .nav .nav-item a:hover{
+    color:var(--secondary);
+}
+
+.pc-navigation .nav .nav-item a:hover::after{
+    width: 60%;
+}
+/*--------- Nav animation end----------------*/
+
+/* Nav Bar End */
+/* Header Circle Start */
+section.header .container .header-circle{
+    position: absolute;
+    right: 10%;
+    top:-20%;
+    z-index:-1;
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+/* Header Circle End */
+/*---------------------Section - Header End------------------------------------*/
+/*---------------------Section - Footer Start--------------------------------*/
+
+section.footer .row .my-col-1{
+    /* background-color: lightblue; */
+    padding: 2rem 1rem 2rem;
+}
+
+section.footer .row .my-col-1 picture{
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.footer .row .my-col-1 picture img{
+    /* background-color: blue; */
+}
+section.footer .row .my-col-2{
+    /* background-color: lightgreen; */
+    padding: 2rem 1rem 2rem;
+}
+section.footer .row .my-col-3{
+    /* background-color: lightyellow; */
+    padding: 2rem 1rem 2rem;
+}
+section.footer .row .my-col-4{
+    /* background-color: lightpink; */
+    padding: 2rem 1rem 2rem;
+}
+section.footer .row .my-col-5{
+    /* background-color: lightcoral; */
+    padding: 2rem 1rem 2rem;
+}
+
+section.footer{
+    background-color: var(--footer);
+}
+
+section.footer h1{
+    color:var(--pure);
+    font-size: 1.5rem;
+}
+
+section.footer .row .my-col-2 p{
+    color:var(--pure);
+    margin-top:1.5rem;
+}
+
+section.footer .row ul{
+    padding:0;
+}
+
+section.footer .row li{
+    list-style-type: none;
+    margin-top: 1.5rem;
+}
+
+section.footer .row li a{
+    text-decoration: none;
+    color: var(--pure);
+    position: relative;
+}
+
+section.footer .row .my-col-5 h3{
+    color: var(--pure);
+    font-size: 1rem;
+    margin-top:1.5rem;
+}
+
+/*--------- Li animation start----------------*/
+section.footer .row li a::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 0.4rem;
+    width: 0%;
+    background-color: var(--pure);
+    bottom: -0.5rem;
+    transition: all .3s ease-in-out ;
+}
+
+section.footer .row li a:hover::after{
+    width: 100%;
+}
+/*--------- Li animation end----------------*/
+/*---------------------Section - Footer End------------------------------*/
+
+
+/*----------button customization start ----------*/
+.my-btn-primary{
+    background-color: var(--primary);
+    border: 3px solid transparent;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: 400;
+    color: var(--pure);
+    font-size: 1.2rem;
+    outline: none;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+
+.my-btn-primary:hover{
+    margin-top:3rem;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    color: var(--ternary);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.my-btn-primary:focus{
+    outline: none;
+}
+
+.my-btn-primary a{
+    text-decoration: none;
+    color:var(--pure);
+}
+
+.my-btn-primary:hover a{
+    color:var(--primary);
+}
+
+/*----------button customization End ----------*/
+
+/* Back to top button start  */
+#back-to-top{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    transform: scale(0.3);
+    outline: none;
+    background-color: transparent;
+    border:none;
+    filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.3));
+    transition: all 0.3s ease;
+    display: visible;
+    z-index: 10;
+}
+
+#back-to-top:hover{
+    transform:scale(0.7);
+}
+
+#back-to-top img{
+    margin-bottom: 1rem;
+}
+
+/* Button animations */
+.btnEntrance{
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+/* Zoom in */
+@keyframes btnEntrance{
+    from {
+        opacity: 0;
+        transform: scale3d(0.3,0.3,0.3);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.btnExit{
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+/* Zoom in */
+@keyframes btnExit{
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: scale3d(0.3,0.3,0.3);
+    }
+}
+
+/* Back to top button end  */

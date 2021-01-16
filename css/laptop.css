@@ -1,0 +1,535 @@
+/* Media queries for laptop screens */
+@media screen and (min-width:1200px) and (max-width:1400px){
+    /* Index.html Start */
+    /* Section - Header Start */
+    /* Nav Bar Start */
+    section.header {
+        height: 20vh;
+        /* background-color: lightgoldenrodyellow; */
+    }
+    section.header .container{
+        height: 20vh;
+        /* background-color: blueviolet; */
+    }
+    /* Targetting Logo */
+    section.header .container .custom-nav-bar .logo{
+        transform: scale(0.8);
+    }
+    /* Nav Bar End */
+    /* Header Circle Start */
+    section.header .container .header-circle{
+        right: 0%;
+        top:-90%;
+    }
+    /* Header Circle End */
+    /* Section - Header End */
+    /* Section -Hero Start */
+    /* Hero Image */
+    section.hero{
+        height: 80vh;
+        /* background-color: lightblue; */
+    }
+    
+    section.hero .container{
+        height: 80vh;
+        /* background-color: lightpink; */
+    }
+    
+    section.hero .container .row .my-col-2 img{
+        transform: scale(0.8);
+        margin-left: -3rem;
+    }
+
+    section.hero .container .row .my-col-2 img:hover{
+    transform: scale(0.9);
+    }
+      
+    /* Hero Circle Start */
+    section.hero .hero-circle{
+        left:-10%;
+        bottom: -70%;
+    }
+    /* Hero Circle End */
+    /* Section - Hero End */
+    /* Section - Service Start */
+    /* Services Text Start */
+    section.service {
+        /* background-color: yellow; */
+    }
+    section.service h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+
+    section.service h3{
+        margin-bottom: 6rem;
+    }
+    
+    /* Service Text End */
+    /* Service Grid Start */
+    section.service .card-wrapper {
+        grid-column-gap: 5rem;
+        grid-row-gap:7rem;
+    }
+        
+    section.service .card-wrapper .card img{
+        width: 30%;
+        height: 30%;
+        top:-50px;
+    }
+    
+    section.service .card-wrapper .card h1{
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
+    
+    section.service .card-wrapper .card p{
+        font-size:0.9rem;
+        margin-bottom: 1rem;
+    }
+    
+    section.service .card-wrapper .card a{
+        font-size: 1.1rem;
+    }
+    /* Section - Service End */
+    /* Section - Testimonials Start */  
+    section.testimonials .container{
+        /* background-color: blueviolet; */
+        display: flex;
+        align-items:center;
+    }
+
+    section.testimonials .testimonials-wrapper{
+        /* background-color: blue; */
+    }
+    /* Testimonials Text Start */
+    section.testimonials h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    
+    section.testimonials .horizontal-rule{
+        margin:1rem 0 2rem;
+    }
+    
+    section.testimonials h3{
+        margin-bottom: 6rem;
+    }
+    
+    /* Testimonials Text End */
+    /* Testimonials Grid Start */
+    section.testimonials .card-wrapper{
+        grid-column-gap: 3rem;
+    }
+    
+    section.testimonials .upper {
+        padding: 2rem 2rem 0rem;
+    }
+    
+    /* Testimonials Grid End */
+    /* Section - Testimonials End */
+    /* Index.html End */
+    /* Services.html Start */
+    /* Section - Services Txt Start*/    
+    section.services-txt .container{
+        /* height: 35vh; */
+        /* background-color: pink; */
+        padding: 2rem 0;
+    }
+    /* Services-Txt circle Start */
+    section.services-txt .services-circle-2{
+    position: absolute;
+    left:-9%;
+    top:0;
+    z-index: -1;
+    }
+    /* Services-Txt circle End */
+    /* Section - Services Txt End*/
+    /* Serction - Services Start */
+    /* Services carousel style start */
+    section.services #carousel-wrapper{
+        /* background-color: green; */
+        padding-top:2rem;
+    }
+    section.services .carousel .card-outer-wrapper h1{
+    margin-bottom: 2rem;
+    }
+
+    section.services .carousel .card-inner-wrapper .middle-section picture img{
+    width: 300px;
+    height: 300px;
+    margin:0 2rem;
+    }
+
+    section.services .carousel .card-inner-wrapper .content .text p{
+    font-size: 0.8rem;
+    }
+
+    section.services .carousel .left-slidder{
+    position: absolute;
+    left:40%;
+    top:515px;
+    z-index: 2;
+    
+    }
+
+    section.services .carousel .right-slidder{
+    position: absolute;
+    right: 40%;
+    z-index: 2;
+    top:515px;
+    }
+    /* Services carousel style end */
+    #services .services-circle-3{
+        position: absolute;
+        bottom: 4%;
+        right: -10%;
+        z-index: -1;
+    }
+    /* Section - Services End */
+    /* Section - Reasons Start */
+    section.reasons{
+        background-color: rgba(255,169,112,0.28);
+        height: 100vh;
+    }
+    
+    section.reasons .container{
+        text-align: center;
+        height: 100vh;
+    }
+
+    section.reasons h1{
+        margin-bottom: 4rem;
+    }
+
+    section.reasons .content .text p{
+        font-size: 0.8rem;
+    }
+    /* Section - Reasons End */
+    /* Services.html End */
+    /* Careers.html Start */
+    /* Section - Careers-hero start */
+    section.careers-hero .container{
+        /* background-color: purple; */
+        padding: 2rem 0;
+    }
+    
+    section.careers-hero .careers-circle{
+        position: absolute;
+        left:-9%;
+        top:0;
+        z-index: -1;
+    }
+
+    /* Section - Careers-hero End */
+    /* Section - Careers Hero-Content Start */
+    section.hero-content{
+        height: 100vh;
+    }
+
+    section.hero-content .container{
+        height: 100vh;
+        /* background-color: lightblue; */
+        /* margin-top:-5rem; */
+    }
+
+    section.hero-content .text h1{
+        font-size: 2rem;
+    }
+    
+    section.hero-content .text p{
+        font-size: 1rem;
+    }
+
+    section.hero-content .graphic picture img{
+        transform: scale(0.9);
+    }
+
+    /* Section - Careers Hero-Content End */
+    /* Section - Careers Culture Start */
+    section.culture{
+        background-color: rgba(255,169,112,0.28);
+        height: 300px;
+    }
+    section.culture .container{
+        text-align: center;
+        height: 300px;
+    }
+    /* culture heading start */
+    section.culture .culture-txt h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+    section.culture .culture-txt .horizontal-rule{
+        background-color:var(--primary);
+        height: 10px;
+        border-radius: 20px;
+        width: 18%;
+        margin:1rem 0 3rem;
+        text-align: center;
+    }
+    /* culture heading end */
+    /* content styles */
+    section.culture .content{
+        width: 350px;
+    }
+    
+    section.culture .content h4{
+        font-size: 1rem;
+    }
+        
+    section.culture .content .text{
+        width: 2000px;
+    }
+    
+    section.culture .content .text h2{
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+    
+    section.culture .content .text p{
+        font-size: 0.8rem;
+    }
+    
+    /* Section - Careers Culture End */
+    /* Sectino - Careers Benifits Start */
+    /* benifits heading start */
+    section.benifits .benifits-outer-wrapper{
+        padding:0;
+    }
+
+    section.benifits .benifits-txt h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }   
+
+    section.benifits .benifits-txt .horizontal-rule{
+        margin:1rem 0 6.7rem;
+    }
+    /* benifits heading end */
+    /* benifits card section start */
+    section.benifits .benifits-wrapper{
+    /* background-color: lightyellow; */
+    padding:0;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap:1rem;
+    grid-row-gap:4rem;
+    padding: 0 10rem;
+    }   
+
+    section.benifits .benifits-wrapper .benifits-card img{
+        /* background-color: lightcoral; */
+        height: 40px;
+        width: 40px;
+    }   
+
+    section.benifits .benifits-wrapper .benifits-card .text{
+        width: 300px;
+    }
+
+    section.benifits .benifits-wrapper .benifits-card .text p{
+        font-size: 0.8rem;
+    }
+    /* benifits card section end */
+    /* benifits circle start */
+    section.benifits .benifits-circle-1{
+        position: absolute;
+        top:25%;
+        left: -15%;
+        transform: scale(0.7);
+    }   
+
+    section.benifits .benifits-circle-2{
+        transform: scale(0.7);
+        position: absolute;
+        top:-15%;
+        right:-40%;
+        
+    }
+    /* benifits circle end */
+    /* Section - Careers Benifits End */
+    /* Section - Careers Jobs Start */
+    /* Jobs heading start */
+    section.jobs .jobs-txt{
+        padding-top:2rem;
+    }
+
+    section.jobs .jobs-txt h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+
+    /* Jobs heading end */
+    /* Jobs tab indisde styling */
+    section.jobs .tabs{
+        display: flex;
+        margin-bottom: 1rem;
+        /* background-color: lightblue; */
+    }
+
+    /* Jobs card styling start */
+    
+    section.jobs .card-box .left .heading h3{
+        font-size: 0.9rem;
+    }
+    section.jobs .card-box .left .heading h4{
+        font-size: 0.7rem;
+    }
+
+    section.jobs .card-box .left p{
+        width:830px;
+        font-size: 0.8rem;
+        margin-top:1rem;
+        margin-right: 1rem;
+    }
+
+    section.jobs .card-box .left ul li{
+        color:var(--secondary);
+        font-size:0.8rem;
+    }
+    /* Jobs card inside styling end */
+    /* Jobs circle */
+    section.jobs .jobs-circle{
+        position: absolute;
+        top:8%;
+        right: 1%; 
+    }
+    /* Section - Careers Jobs End */
+    /* Careers.html End */
+    /* AboutUs.html Start */
+    /*---------------------AboutUs Hero Section Start------------------------------------*/
+    section.aboutus-hero{
+        /* height: 130vh; */
+        /* background-color: lightblue; */
+        position: relative;
+    }
+    section.aboutus-hero .container{
+        padding: 2rem 0 2rem;
+        /* background-color: yellow; */
+    }
+
+    /* Title style start */
+    section.aboutus-hero h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }   
+    /* about us hero circle start */
+    section.aboutus-hero .aboutus-hero-circle{
+        position: absolute;
+        top:25%;
+        left: -25%;
+        /* background-color: blue; */
+    }
+    /* about us hero circle end */
+    /*---------------------AboutUs Hero Section End------------------------------------*/
+    /*---------------------AboutUs timeline Section start------------------------------------*/
+    section.timeline{
+        height: 260vh;
+        /* background-color: yellow; */
+    }   
+
+    section.timeline .container .timeline-outer-wrapper{
+        margin-top:3rem;
+    }   
+
+    section.timeline .timeline-outer-wrapper .timeline-years{
+        /* background-color: blue; */
+    }    
+
+    /* Content 1 start*/
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-1{
+        /* background-color: mediumaquamarine; */
+        width: 400px;
+        right: 5%;
+        top:4%;
+    }   
+
+    section.timeline .timeline-outer-wrapper  .content-heading h3{
+        font-size: 1rem;
+    }   
+
+    section.timeline .timeline-outer-wrapper  p{
+        font-size: 0.9rem;
+    }
+    /* Content 1 end*/
+    /* Content 2 start */
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-2{
+        /* background-color: blue; */
+        width: 400px;
+        left: 5%;
+        top:50%;
+    }
+    /* Content 2 end */
+    /* Content 3 start */
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-3{
+        /* background-color: green; */
+        width: 400px;
+        right: 5%;
+        top:105%;
+    }
+    /* Content 3 end */
+    /* Content 4 start */
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-4{
+        /* background-color: red; */
+        width: 400px;
+        left: 5%;
+        top:163%;
+    }
+
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-5{
+        /* background-color: yellow; */
+        width: 400px;
+        right: 5%;
+        top:220%;
+    }
+    
+    section.timeline .timeline-outer-wrapper .content-outer-wrapper-6{
+        /* background-color: pink; */
+        width: 400px;
+        left: 5%;
+        top:275%;
+    }
+    /* Content 4 end */
+    /* About us timeline circle start */
+    section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-1{
+        /* background-color: lightpink; */
+        z-index: -1;
+        right: -25%;
+        top:10%;
+    }   
+
+    section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-2{
+        /* background-color: lightpink; */
+        z-index: -1;
+        left: -10%;
+        top: 95%;
+    }
+
+    section.timeline .timeline-outer-wrapper .aboutus-timeline-circle-3{
+        /* background-color: lightpink; */
+        z-index: -1;
+        position:absolute;
+        right: -30%;
+        top:190%;
+    }
+    /* About us timeline circle end */
+    /*---------------------AboutUs timeline Section End------------------------------------*/
+    /*---------------------leaders Section start------------------------------------*/
+    section.leaders{
+        margin-top:4rem;
+    }
+    section.leaders h1{
+        font-weight: 700;
+        font-size: 1.9rem;
+    }
+
+    /* Info card style start */
+    section.leaders .info-card p{
+        text-align: left;
+        font-size: 0.9rem;
+    }   
+    /* Info card style end */
+    /*---------------------leaders section End------------------------------------*/
+    /* AboutUs.html End */
+}

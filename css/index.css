@@ -1,0 +1,491 @@
+/*---------------------Section - Hero Start------------------------------------*/
+section.hero{
+    /* background-color: powderblue; */
+    height: 85vh;
+    position: relative;
+}
+
+section.hero .container{
+    height: 85vh;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+section.hero .container .row{
+    /* background-color: yellow; */
+    width: 100%;
+    margin: 0;
+}
+
+section.hero .container .row .my-col-1{
+    /* background-color: purple; */
+    padding: 0!important;
+}
+
+
+section.hero .container .row .my-col-2{
+    /* background-color: cyan; */
+    padding: 0!important;
+}
+
+section.hero .container .row .my-col-2 img{
+    transition: all 0.3s ease;
+    /* animation:fadeIn;
+    animation-delay: 1s;
+    animation-duration: 2s; */
+}
+
+section.hero .container .row .my-col-2 img:hover{
+    transform: scale(1.1);
+}
+
+section.hero h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    line-height: 2rem;
+}
+
+section.hero .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 45%;
+    margin:3rem 0 3rem;
+}
+
+section.hero h3{
+    color: var(--secondary);
+    font-size: 1.5rem;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+section.hero span{
+    color: var(--primary);
+    font-family: montserrat,sans-serif;
+}
+
+section.hero .hero-btn{
+    margin-top: 3rem;
+}
+/* Hero Circle Start */
+section.hero .hero-circle{
+    position: absolute;
+    /* background-color: blue; */
+    left:0;
+    bottom: -45%;
+    z-index:-1; 
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+/* Hero Circle End */
+/*---------------------Section - Hero End--------------------------------------*/
+/*---------------------Section - Service Start--------------------------------*/
+section.service {
+    /* height: 141vh; */
+    position: relative;
+    /* background-color: pink; */
+}
+
+section.service .container{
+    /* height: 141vh; */
+    /* background-color: red; */
+    padding: 4rem 0rem;
+}
+/* Services Text Start */
+section.service .container .services-txt{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+section.service h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.service .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 34%;
+    margin:1rem 0 3rem;
+    text-align: center;
+}
+
+section.service h3{
+    color: var(--secondary);
+    font-size: 1.5rem;
+    white-space: nowrap;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+section.service span{
+    color: var(--primary);
+    font-family: montserrat,sans-serif;
+}
+/* Services Text End */
+/* Services Grid Start */
+section.service .card-wrapper {
+    position: relative;
+    /* background-color: lightblue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 6rem;
+    grid-row-gap:6rem;
+}
+
+section.service .card-wrapper .card{
+    padding: 1.5rem;
+    filter: drop-shadow(4px 2px 10px rgba(0,0,0,0.25));
+    transition: all  0.3s ease;
+    position: relative;
+}
+
+section.service .card-wrapper .card .card-link{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+section.service .card-wrapper .card img{
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    top:-60px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+section.service .card-wrapper .card h1{
+    font-family: 'montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--primary);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+section.service .card-wrapper .card p{
+    text-align: center;
+    font-size:1.1rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+section.service .card-wrapper .card .read-more{
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary);
+    visibility: hidden;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+section.service .card-wrapper .card:hover{
+    background-color: var(--hover);
+    transform:scale(1.1);
+}
+
+
+section.service .card-wrapper .card:hover h1,
+section.service .card-wrapper .card:hover p,
+section.service .card-wrapper .card:hover .read-more{
+    color:var(--pure);
+    visibility: visible;
+}
+/* Service Grid End */
+/* Service Circle Start */
+section.service .services-circle{
+    position: absolute;
+    /* background-color: blue; */
+    right:-15%;
+    bottom: 0;
+    z-index:-1;
+}
+/* Service Circle End */
+/*---------------------Section - Service End----------------------------------*/
+/*---------------------Section - Testimonials Start----------------------------*/
+section.testimonials {
+    height: 100vh;
+    position: relative;
+    /* background-color: blue; */
+}
+
+section.testimonials .container{
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    align-items:center;
+    padding: 0;
+}
+
+section.testimonials .testimonials-wrapper{
+    /* background-color: yellow; */
+}
+
+/* Testimonials Text Start */
+section.testimonials .container .testimonials-txt{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+section.testimonials h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.testimonials .horizontal-rule{
+    background-color:var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 34%;
+    margin:1rem 0 3rem;
+    text-align: center;
+}
+
+section.testimonials h3{
+    color: var(--secondary);
+    font-size: 1.5rem;
+    white-space: nowrap;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+section.testimonials span{
+    color: var(--primary);
+    font-family: montserrat,sans-serif;
+}
+/* Testimonials Text End */
+/* Testimonials Grid Start */
+section.testimonials .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 8rem;
+
+}
+
+section.testimonials .card-wrapper .card{
+    border-style: none;
+    transition: all 0.3s ease;
+}
+
+section.testimonials .upper {
+    background-color: var(--testimonialupper);
+    padding: 2rem;
+    position: relative;
+}
+
+section.testimonials .upper img{
+    position: absolute;
+    top:-2rem;
+    right:2rem;
+}
+
+section.testimonials .upper p{
+    color: var(--secondary);
+}
+
+section.testimonials .lower{
+    background-color: var(--primary);
+    padding: 2rem;
+    filter: drop-shadow(4px 2px 10px rgba(0,0,0,0.25));
+}
+
+section.testimonials .lower .lower-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.testimonials .lower .lower-wrapper .text-wrapper h3
+,section.testimonials .lower .lower-wrapper .text-wrapper h4{
+    margin:0 1.5rem;
+    color: var(--pure);
+}
+
+section.testimonials .lower .lower-wrapper .text-wrapper h4{
+    font-size: 1rem;
+}
+
+section.testimonials .card-wrapper .card:hover{
+    transform:scale(1.1);
+}
+/* Testimonials Grid End */
+/*---------------------Section - Testimonials End------------------------------*/
+/*---------------------Section - Contact Us Start------------------------------*/
+section.contact{
+    background-color: var(--contactbgcolor);
+    height: 100vh;
+    margin-top:3rem;
+}
+
+section.contact .container{
+    height: 100vh;
+    /* background-color: pink; */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+section.contact .contact-wrapper{
+    width: 100%;
+}
+
+section.contact .my-row{
+    margin: 0;
+}
+
+/*--------- Address section start -------------------*/
+
+section.contact .row .my-col-1{
+    background-color: var(--pure);
+    padding: 3rem;
+}
+
+section.contact .row .my-col-1 h1{
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+section.contact .row .my-col-1 > h3{
+    color:var(--secondary);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+section.contact .row .my-col-1 .contact-card{
+    display:flex;
+    justify-content: start;
+    /* background-color: lightblue; */
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+section.contact .row .my-col-1 .contact-card .location{
+    width: 5%;
+}
+
+section.contact .row .my-col-1 .contact-card img{
+    width:4%;
+}
+
+section.contact .row .my-col-1 .contact-card .flag{
+    margin-left:1rem;
+}
+
+section.contact .row .my-col-1 .contact-card > h3{
+    color: var(--primary);
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+section.contact .row .my-col-1 p{
+    margin-bottom: 2rem;
+    color: var(--secondary);
+}
+/*--------- Address section End -------------------*/
+/*--------- Call to action section start -------------------*/
+
+section.contact .row .my-col-2{
+    background-color: var(--primary);
+    padding: 3rem;
+}
+
+section.contact .row .my-col-2 h1{
+    color: var(--pure);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+section.contact .row .my-col-2 > h3{
+    color:var(--pure);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* section.contact .row .my-col-2 > h3 + h3{
+    color: var(--pure);
+    font-weight: 900;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    margin-left: 0;
+} */
+
+section.contact .row .my-col-2 .email {
+    display:flex;
+    justify-content: start;
+    /* background-color: lightblue; */
+    align-items: center;
+}
+
+section.contact .row .my-col-2 .email img{
+    width: 5%;
+}
+
+section.contact .row .my-col-2 .email h3{
+    color: var(--pure);
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+section.contact .row .my-col-2 .horizontal-rule-2{
+    background-color:var(--pure);
+    height: 10px;
+    border-radius: 20px;
+    width: 30%;
+    margin-left:3.3rem;
+    margin-top:0.5rem;
+    text-align: center;
+}
+
+section.contact .row .my-col-2 .horizontal-rule-2 + h3{
+    color:var(--pure);
+    margin-top:1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    /* background-color: green; */
+}
+
+section.contact .row .my-col-2 .socials{
+    /* background-color: lightpink; */
+    margin-left: -1.5rem;
+    margin-top:1.5rem;
+}
+
+section.contact .row .my-col-2 .socials img{
+    width:4%;
+    margin-left:1.5rem;
+    transition: all 0.3s ease;
+}
+
+section.contact .row .my-col-2 .socials img:hover{
+    transform: scale(1.5);
+}
+
+/*--------- Call to action section end -------------------*/
+/*---------------------Section - Contact Us End------------------------------*/

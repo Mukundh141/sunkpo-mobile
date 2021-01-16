@@ -1,0 +1,396 @@
+html {
+    scroll-behavior: smooth!important;
+}
+
+/*---------------------Section - Services Txt Start------------------------------------*/
+
+section.services-txt {
+    /* background-color: red; */
+    /* height: 35vh; */
+    position: relative;
+}
+
+section.services-txt .container {
+    /* height: 35vh; */
+    /* background-color: pink; */
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.services-txt .container .services-txt-2 {
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.services-txt h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+section.services-txt .horizontal-rule {
+    background-color: var(--primary);
+    height: 10px;
+    border-radius: 20px;
+    width: 12%;
+    margin: 2rem 0 3rem;
+    text-align: center;
+}
+
+section.services-txt p {
+    color: var(--secondary);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Services nav start*/
+
+section.services-txt .container .services-txt-2 .services-nav {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    margin-left: -4rem;
+}
+
+section.services-txt .container .services-txt-2 .services-nav h3 {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+section.services-txt .container .services-txt-2 .services-nav h3 a {
+    text-decoration: none;
+    color: var(--ternary);
+    position: relative;
+}
+
+/*--------- Nav animation start----------------*/
+
+section.services-txt .container .services-txt-2 .services-nav h3 a::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 0.2rem;
+    width: 0%;
+    background-color: var(--primary);
+    bottom: -0.5rem;
+    transition: all .3s ease-in-out;
+}
+
+section.services-txt .container .services-txt-2 .services-nav h3 a:hover {
+    color: var(--secondary);
+}
+
+section.services-txt .container .services-txt-2 .services-nav h3 a:hover::after {
+    width: 100%;
+}
+
+/*--------- Nav animation end----------------*/
+
+section.services-txt .container .services-txt-2 .services-nav h4 {
+    color: var(--secondary);
+    margin: 0;
+    margin-left: 1rem;
+}
+
+/* Services nav end */
+
+/* Services-Txt circle Start */
+
+section.services-txt .services-circle-2 {
+    position: absolute;
+    left: -4%;
+    top: 0;
+    z-index: -1;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+
+/* Services-Txt circle End */
+
+/*---------------------Section - Services Txt End ------------------------------------*/
+
+/*---------------------Section - Services  Start------------------------------------*/
+
+/* Services carousel style start */
+
+#services {
+    height: 100vh;
+    position: relative;
+    /* background-color: blue; */
+}
+
+section.services #carousel-wrapper {
+    padding: 2rem;
+}
+
+section.services .carousel .carousel-item {
+    /* background-color: green; */
+    padding-top: 1rem;
+}
+
+section.services .carousel .carousel-inner {
+    /* filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.40)); */
+    /* background-color: lightblue; */
+}
+
+section.services .carousel .card-outer-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    align-items: center;
+}
+
+section.services .carousel .card-outer-wrapper h1 {
+    /* background-color: red; */
+    margin: 0;
+    margin-bottom: 6rem;
+}
+
+section.services .carousel .card-outer-wrapper h1 span {
+    color: var(--primary);
+}
+
+section.services .carousel .card-inner-wrapper {
+    display: flex;
+    /* background-color: purple;     */
+    align-items: center;
+    /* margin-top: 2rem; */
+}
+
+section.services .carousel .card-inner-wrapper .middle-section picture img {
+    /* background-color: green; */
+    width: 500px;
+    height: 500px;
+    margin: 0 3rem;
+}
+
+section.services .carousel .card-inner-wrapper .left-section {
+    /* background-color: lightblue; */
+}
+
+section.services .carousel .card-inner-wrapper .right-section {
+    /* background-color: skyblue; */
+}
+
+section.services .carousel .card-inner-wrapper .content {
+    display: flex;
+    align-items: top;
+    margin-top: 2rem;
+}
+
+section.services .carousel .card-inner-wrapper .content .graphic img {
+    /* background-color: lightcoral; */
+    height: 60px;
+    width: 60px;
+}
+
+section.services .carousel .card-inner-wrapper .content .text {
+    width: 300px;
+    margin-left: 1rem;
+}
+
+section.services .carousel .card-inner-wrapper .content .text h3 {
+    font-weight: bold;
+    color: var(--dark);
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+section.services .carousel .card-inner-wrapper .content .text span {
+    color: var(--primary);
+}
+
+section.services .carousel .card-inner-wrapper .content .text p {
+    text-align: left;
+    color: var(--secondary);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+section.services .carousel .left-slidder {
+    position: absolute;
+    left: 40%;
+    top: 120%;
+    z-index: 2;
+}
+
+section.services .carousel .right-slidder {
+    position: absolute;
+    right: 40%;
+    z-index: 2;
+    top: 120%;
+}
+
+/* Services carousel style end */
+
+#services .services-circle-3 {
+    position: absolute;
+    bottom: 4%;
+    right: -5%;
+    z-index: -1;
+}
+
+/* Services circle Start */
+
+/* Services Circle End */
+
+/*---------------------Section - Services  End------------------------------------*/
+
+/*---------------------Section - Reasons  Start------------------------------------*/
+
+section.reasons {
+    background-color: rgba(255, 169, 112, 0.28);
+    height: 100vh;
+}
+
+section.reasons .container {
+    text-align: center;
+    height: 100vh;
+    /* background-color: lightblue; */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+section.reasons .reasons-outer-wrapper {
+    /* background-color: lightgreen; */
+    width: 100%;
+}
+
+section.reasons h3 {
+    color: var(--primary);
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.5rem;
+}
+
+section.reasons h1 {
+    color: var(--dark);
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5rem;
+}
+
+/* content styles */
+
+section.reasons .content {
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: start;
+    align-items: flex-start;
+    width: 300px;
+}
+
+section.reasons .content h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+    /* background-color: lightcoral; */
+    width: 60px;
+    text-align: left;
+    margin-right: 0.5rem;
+}
+
+section.reasons .content .horizontal-rule {
+    background-color: var(--primary);
+    height: 5px;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+section.reasons .content .text {
+    width: 1000px;
+}
+
+section.reasons .content .text h2 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    /* background-color: lightblue; */
+}
+
+section.reasons .content .text p {
+    color: var(--secondary);
+    font-size: 0.9rem;
+    text-align: start;
+    margin: 0;
+    /* background-color: green; */
+}
+
+/* reason wrapper */
+
+section.reasons .reason-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+}
+
+/*---------------------Section - Reasons  End------------------------------------*/
+
+/*---------------------Section - Counter Start---------------------------------*/
+
+section.counters .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 8rem 0rem;
+    /* background-color: blue; */
+}
+
+/* Data styling Start */
+
+section.counters .counter-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+section.counters .data {
+    display: flex;
+    align-items: center;
+    /* background-color: purple; */
+}
+
+section.counters .data .counter {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+section.counters .data h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+section.counters .data span {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+section.counters .counter-s h2 {
+    color: var(--secondary);
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Data styling End */
+
+/*---------------------Section - Counter End ----------------------------------*/
